@@ -1,0 +1,14 @@
+
+{
+  "name": "JR_homepage_backend",
+  "version": "0.0.1",
+  "description": "JR homepage backend",
+  "keywords": [
+    "domjs",
+    "homepage",
+    "JR"
+  ],
+  "dependencies": {
+    "jsdom":"0.6.5"
+  }
+}
