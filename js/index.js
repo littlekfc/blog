@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
   var colors = [['#f4f2d2', 'pale'],
                 ['#638TIME9', 'darkgreen'],
                 ['#81a677', 'lightgreen']];/** can break here
@@ -7,7 +7,26 @@ $(document).ready(function() {
                 ['#b83f31', 'darkred']];*/
   var index = 0;
   var TIME = 100;
+  var TIMEOUT = 1000 * 60;
+  var news_content = null;
+  var preDate = (new Date()).getTime();
+  function get(callback) {
+    var curDate = (new Date()).getTime();
+    if (!news_content || preDate + TIMEOUT < curDate) {
+        $.ajax({url :"./server/news.json",
+        }).done(function(data) {
+            debugger;
+           });
+    }
+  }
   $('.open').click(function() {
+     debugger;
+    if ($.attr(this, "id") == "open_news")
+    {
+        get(function(data) {
+            
+        });
+    }
     $('.active').removeClass('active');
     $(this).addClass('active');
     var target = right ? '#rightcontent' : '#leftcontent';
