@@ -15,7 +15,7 @@ $(function() {
                 ['#b83f31', 'darkred']];*/
   var index = 0;
   var TIME = 100;
-  var TIMEOUT = 1000 * 60;
+  var TIMEOUT = 1000 * 60; //1分钟就过期重拉数据
   var news_content = null;
   var preDate = (new Date()).getTime();
   function get(callback) {
@@ -23,8 +23,13 @@ $(function() {
     if (!news_content || preDate + TIMEOUT < curDate) {
         $.ajax({url :"./server/news.json",
         }).done(function(data) {
-           
+                callback(data);
+                preDate = curDate;
            });
+
+    } else
+    {
+        callback(data);
     }
   }
   $('.open').click(function() {
