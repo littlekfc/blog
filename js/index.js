@@ -21,15 +21,16 @@ $(function() {
   function get(callback) {
     var curDate = (new Date()).getTime();
     if (!news_content || preDate + TIMEOUT < curDate) {
-        $.ajax({url :"./server/news.json",
+        $.ajax({url :"./server/news.json?r=" + Math.random() ,
         }).done(function(data) {
                 callback(data);
                 preDate = curDate;
+		news_content = data;
            });
 
     } else
     {
-        callback(data);
+        callback(news_content);
     }
   }
   $('.open').click(function() {
