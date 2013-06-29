@@ -7,6 +7,7 @@
 <meta name="keywords" content="JR"> 
 <meta name="keywords" content="littlekfc"> 
 <meta name="keywords" content="jarvisrao"> 
+<!-- 
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
@@ -24,6 +25,7 @@
       })();
 
 </script>
+ -->
 <link href="./css/index.css" rel="stylesheet" type="text/css"> 
 <!--
 <link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
@@ -39,15 +41,15 @@
 <body> 
     <div id="left">
         <div id="leftcontent">
-            <div class="about">
-                 <h2>关于我</h2>
-                 <div>
-                     <img style="border-radius:50px" src="./res/self.jpg">
-                     </img>
-                </div>	
+            <div id="about">
+		 <h2>关于</h2>
+		 <div>
+			 <img style="border-radius:50px" src="./res/self.jpg">
+			 </img>
+		</div>	
             </div>
-            <div class="links">
-                <h2>联系我</h2>
+            <div id="links">
+                <h2>联系</h2>
                     <a target="_blank" href="https://github.com/littlekfc">Github</a>
                     <br>
                     <a target = "_blank" href="http://www.zhihu.com/people/rao-ji">知乎</a>
@@ -55,11 +57,8 @@
                     <a target="_blank"
                     href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=NQYFDAwMDAUMA3VERBtWWlg"> Email</a>
             </div>
-            <div class="news">
-                <h2>关注我</h2>
-                <div class="news_content">
-                    
-                </div>
+            <div id="news">
+                <h2>动态</h2>
             </div>
         </div>
     </div>
@@ -79,15 +78,14 @@
 
     <div id="right">
         <div id="rightcontent">
-            <div class="about">
-                  <h2>关于我</h2>
-                  <div>
-                      <img style="border-radius:50px" src="./res/self.jpg">
-                      </img>
-                  </div>
-            </div>
-            <div class="links">
-                <h2>联系我</h2>
+            <div id="about">
+		  <h2>关于</h2>
+		  <div>
+			  <img style="border-radius:50px" src="./res/self.jpg">
+			  </img>
+		  </div>	
+            <div id="links">
+                <h2>联系</h2>
                     <a target="_blank" href="https://github.com/littlekfc">Github</a>
                     <br>
                     <a target="_blank" href="http://www.zhihu.com/people/rao-ji">知乎</a>
@@ -95,10 +93,8 @@
                     <a target="_blank"
                     href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=NQYFDAwMDAUMA3VERBtWWlg"> Email</a>
             </div>
-            <div class="news">
-                <h2>关注我</h2>
-                <div class="news_content">
-                </div>
+            <div id="news">
+                <h2>NEWS</h2>
             </div>
         </div>
     </div>

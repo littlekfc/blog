@@ -1,15 +1,284 @@
-<!doctype html>
-<html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-    <title>Index</title>
-    
-</head>
-<body>
-   <a target="_blank"
-   href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=NQYFDAwMDAUMA3VERBtWWlg"
-   style="text-decoration:none;"><img
-   src="http://rescdn.qqmail.com/zh_CN/htmledition/images/function/qm_open/ico_mailme_01.png"/></a> 
-</body>
-</html>
+<!DOCTYPE HTML> 
+<html lang="en"> 
+<head> 
+<title>Always Michelle</title> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta http-equiv="Content-Language" content="en-us"> 
+<meta name="description" content="Michelle Bu's personal homepage. For the
+curious and recruiting."> 
+<meta name="keywords" content="Michelle Bu"> 
+ 
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-27128496-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type =
+    'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ?
+      'https://ssl' : 'http://www') +
+    '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+      })();
+
+</script>
+ 
+<link href="./css/index.css" rel="stylesheet" type="text/css"> 
+<!--
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC:400,900,400italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Adamina' rel='stylesheet' type='text/css'>
+-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+</head> 
+ 
+<body> 
+<div id="left">
+<!-- Dark Green -->
+<div id="leftcontent">
+<!-- White, first -->
+<div id="about">
+<h2>About</h2>
+<strong>This 'about me' is temporarily borrowed from my good friend <a href="http://vedantk.com">Vedant</a>.</strong>
+We're surprisingly similar.
+
+<br><br>
+
+Hey, I'm <em>Michelle</em>. I'm <em>a 3rd year</em> EECS major at UC Berkeley.
+
+<br><br>
+
+I'm interested in <em><a href="https://github.com/michellebu/two-fingers">homebrew computer vision</a>,
+<a href="https://github.com/michellebu/budp">failed networking</a>, Chrome,
+accessibility, <a href="http://mixest.com/mgc">questionably scraping indie music
+blogs</a>, learning new subjects, <a href="http://blog.hackersatberkeley.com/?p=16">teaching new subjects</a>, and making useful/silly web apps</em>.
+
+<br><br>
+
+I also help run <a href="http://hackersatberkeley.com">Hackers@Berkeley</a>, the largest computer science and engineering
+club at Cal.
+
+<br><br>
+
+Apart from that, I love riding bikes, listening to music, <em>playing
+tennis, taking pictures with tons of bokeh,</em> and riding bikes while
+listening to music <em>and playing tennis and taking pictures with tons of bokeh</em>.
+
+<br><br>
+
+Here's my <a href="https://github.com/michellebu">Github</a>.
+
+</div>
+<div id="links">
+<h2>Contact</h2>
+<a href="https://github.com/michellebu">Github</a>
+<br>
+<a href="http://linkedin.com/in/michellebu">LinkedIn</a>
+<br>
+<a href="https://www.facebook.com/SuperBreakfastCereal">Facebook</a>
+<br>
+<a href="mailto:michelle@michellebu.com">Email</a>
+
+</div>
+<div id="projects">
+<h2>Select Projects</h2>
+
+<a href="http://mixest.com/mgc">
+<div class="project">
+<h3>Mixest <span class="details">node.js, jPlayer, Android</span></h3>
+<img src="/projects/mixest.png">
+Mixest was built at the Facebook Summer of Hack 2012 in NYC. It was my first
+time building a crawler and a scraper, so I definitely left the Hackathon with
+more than just a Roku LT.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu/table">
+<div class="project">
+<h3>table<span class="details">Javascript, (HTML5?,) node.js</span></h3>
+<img src="/projects/table.png">
+A quick hack that allows you to create a map of a room. This comes in handy at
+events like Hackathons, where people who are willing to help with certain
+subjects can place themselves on your beautiful map and offer their services and
+their smiling faces. Uses local storage so they can move around--unless they use
+Firefox.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu/hackBox">
+<div class="project">
+<h3>Dropbox++<span class="details">Flask, RaphaelJS, Dropbox API</span></h3>
+<img src="/projects/dropbox.png">
+This was the winner of the 200GB Dropbox prize at The Big Hack 2012. We created a
+pretty user interface for users to visualize their Dropbox usage...and easily
+create shared folders and directly link their friends.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="http://decomposition.herokuapp.com">
+<div class="project">
+<h3>Decomposition<span class="details">Django</span></h3>
+<img src="/projects/decompose.png">
+For all intents and purposes my first 'hack' at my first Hackathon. It's a
+problem set manager, where you can keep track of each individual problem and
+record questions you had about them--it also keeps track of due dates and what
+percentage of the problem set is complete.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu">
+<div class="project">
+<h3>More</h3>
+Check out more things I've hacked on on my Github.
+</div>
+</a>
+
+</div>
+</div>
+</div>
+
+
+<div id="middle">
+<div id="middlebox">
+<div id="over">
+<div class="smallpadding">
+<h1>MB</h1>
+<a class="open" id="open_about">About</a>
+<a class="open" id="open_projects">Projects</a>
+<a class="open" id="open_links">Contact</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div id="right">
+<!-- Light Green -->
+<div id="rightcontent">
+<!-- Dark Green, second -->
+<div id="about">
+<h2>About</h2>
+<strong>This 'about me' is temporarily borrowed from my good friend <a href="http://vedantk.com">Vedant</a>.</strong>
+We're surprisingly similar.
+
+<br><br>
+
+Hey, I'm <em>Michelle</em>. I'm <em>a 3rd year</em> EECS major at UC Berkeley.
+
+<br><br>
+
+I'm interested in <em><a href="https://github.com/michellebu/two-fingers">homebrew computer vision</a>,
+<a href="https://github.com/michellebu/budp">failed networking</a>, Chrome,
+accessibility, <a href="http://mixest.com/mgc">questionably scraping indie music
+blogs</a>, learning new subjects, <a href="http://blog.hackersatberkeley.com/?p=16">teaching new subjects</a>, and making useful/silly web apps</em>.
+
+<br><br>
+
+I also help run <a href="http://hackersatberkeley.com">Hackers@Berkeley</a>, the largest computer science and engineering
+club at Cal.
+
+<br><br>
+
+Apart from that, I love riding bikes, listening to music, <em>playing
+tennis, taking pictures with tons of bokeh,</em> and riding bikes while
+listening to music <em>and playing tennis and taking pictures with tons of bokeh</em>.
+
+<br><br>
+
+Here's my <a href="https://github.com/michellebu">Github</a>.
+
+</div>
+<div id="links">
+<h2>Contact</h2>
+<a href="https://github.com/michellebu">Github</a>
+<br>
+<a href="http://linkedin.com/in/michellebu">LinkedIn</a>
+<br>
+<a href="https://www.facebook.com/SuperBreakfastCereal">Facebook</a>
+<br>
+<a href="mailto:michelle@michellebu.com">Email</a>
+
+</div>
+<div id="projects">
+<h2>Select Projects</h2>
+
+<a href="http://mixest.com/mgc">
+<div class="project">
+<h3>Mixest <span class="details">node.js, jPlayer, Android</span></h3>
+<img src="/projects/mixest.png">
+Mixest was built at the Facebook Summer of Hack 2012 in NYC. It was my first
+time building a crawler and a scraper, so I definitely left the Hackathon with
+more than just a Roku LT.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu/table">
+<div class="project">
+<h3>table<span class="details">Javascript, (HTML5?,) node.js</span></h3>
+<img src="/projects/table.png">
+A quick hack that allows you to create a map of a room. This comes in handy at
+events like Hackathons, where people who are willing to help with certain
+subjects can place themselves on your beautiful map and offer their services and
+their smiling faces. Uses local storage so they can move around--unless they use
+Firefox.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu/hackBox">
+<div class="project">
+<h3>Dropbox++<span class="details">Flask, RaphaelJS, Dropbox API</span></h3>
+<img src="/projects/dropbox.png">
+This was the winner of the 200GB Dropbox prize at The Big Hack 2012. We created a
+pretty user interface for users to visualize their Dropbox usage...and easily
+create shared folders and directly link their friends.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="http://decomposition.herokuapp.com">
+<div class="project">
+<h3>Decomposition<span class="details">Django</span></h3>
+<img src="/projects/decompose.png">
+For all intents and purposes my first 'hack' at my first Hackathon. It's a
+problem set manager, where you can keep track of each individual problem and
+record questions you had about them--it also keeps track of due dates and what
+percentage of the problem set is complete.
+<div class="clear"></div>
+</div>
+</a>
+
+<br>
+<a href="https://github.com/michellebu">
+<div class="project">
+<h3>More</h3>
+Check out more things I've hacked on on my Github.
+</div>
+</a>
+
+</div>
+</div>
+</div>
+
+</body> 
+</html> 
+
