@@ -42,14 +42,14 @@ $(function() {
           for (var i = 0, l = content.length; i < l; i ++) {
             html += nano(
 	   ['<a target="_blank" href="{questionurl}">',
-		'<div class="newitem">',
-		'<img src="' + data.newstypeicon + '" style="width: 35px;">',
-		'<img src="' + data.headicon + '" style="width: 35px;">',
-		'<b>{type}</b>',
-		'<span class="details">{date}</span>', 
-		'<div>{question}</div>',
-		'<div>{content}</div>',
-            	'</div>',
+            '<div class="newitem">',
+                '<img src="' + data.newstypeicon + '" style="width: 35px;">',
+                '<img src="' + data.headicon + '" style="width: 35px;">',
+                '<b>{type}</b>',
+                '<span class="details">{date}</span>', 
+                '<div><b style="background: #E7F3F9;opacity: 0.3;border-radius: 4px;">问题：</b>{question}</div>',
+                '<div><b style="background: #E7F3F9;opacity: 0.3;border-radius: 4px;">回答：</b>{content}</div>',
+            '</div>',
 	    '</a>'].join(""), content[i]);
             
           }
