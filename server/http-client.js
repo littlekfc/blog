@@ -15,7 +15,8 @@ jsdom.env({
                 var item = {};
                 var obj = newsItems[obj];
                 item.type = _.$(".zg-clear", obj).html();
-                if (item.type) item.type = (item.type.search("赞同") >= 0 ?"赞同了回答" : "回答了问题");
+                if (item.type) item.type = (item.type.search("赞同") >= 0 ?"赞同了回答" :(item.type.search("回答") >= 0 ? "回答了问题" : "关注了问题" ));
+                if (!item.type) item.type = "关注了问题";
                 item.date = _.$(".zm-profile-setion-time.zg-gray.zg-right", obj).html();
                 item.question = _.$(".question_link", obj).html();
                 item.questionurl = _.$(".question_link", obj).attr("href");
