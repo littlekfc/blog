@@ -37,8 +37,7 @@ $(function() {
     if ($.attr(this, "id") == "open_news")
     {
         get(function(data) {
-          var data = eval(data);  
-          var content = data.content;
+          var content = data.news;
           var html = "";
           for (var i = 0, l = content.length; i < l; i ++) {
             html += nano(['<div class="project">',
