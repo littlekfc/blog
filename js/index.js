@@ -1,3 +1,11 @@
+
+function nano(template, data) {
+  return template.replace(/\{([\w\.]*)\}/g, function(str, key) {
+    var keys = key.split("."), v = data[keys.shift()];
+    for (var i = 0, l = keys.length; i < l; i++) v = v[keys[i]];
+    return (typeof v !== "undefined" && v !== null) ? v : "";
+  });
+}
 $(function() {
   var colors = [['#f4f2d2', 'pale'],
                 ['#638TIME9', 'darkgreen'],
@@ -15,7 +23,7 @@ $(function() {
     if (!news_content || preDate + TIMEOUT < curDate) {
         $.ajax({url :"./server/news.json",
         }).done(function(data) {
-            debugger;
+           
            });
     }
   }
@@ -24,7 +32,21 @@ $(function() {
     if ($.attr(this, "id") == "open_news")
     {
         get(function(data) {
+          var data = eval(data);  
+          var content = data.content;
+          var html = "";
+          for (var i = 0, l = content.length; i < l; i ++) {
+            html += nano(['<div class="project">',
+		 	'<img src="http://static.zhihu.com/static/img/sticky_header/logo.png" style="width: 35px;">',
+			'<img src="http://p2.zhimg.com/91/ff/91ffa6dbe_l.jpg" style="width: 35px;">',
+			'<b>赞同了回答</b>',
+			'<div style="float:right">5 天前</div>', 
+			'<div>论文的idea被别人偷了怎么办？</div>',
+			'<div>小菜鸟你好，欢迎来到真实世界。 idea 即使已经写成文章投了出去，只要杂志还没有接收，随时有人会来抢不客气。这是科研人员血的教训。要是没人抢，恭喜来到冷门领域，你的文章就算侥幸发出来（没错冷门领域杂志也不待见）也可能十年没读者。 再说了，idea 是… </div>',
+            '</div'].join(""), content);
             
+          }
+            $(".news_content").html(html);	
         });
     }
     $('.active').removeClass('active');
