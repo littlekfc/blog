@@ -251,7 +251,7 @@ em {
 
 
 /** Projects stylings */
-.project {
+.newitem {
   box-shadow: 1px -1px #737373,
               -1px 1px #404040,
               -2px 2px #404040,
@@ -268,9 +268,11 @@ em {
   cursor: pointer;
   margin: 10px;
   font-size: 0.8em;
+  word-wrap:break-word;
 }
 
-.project h3 {
+
+.newitem h3 {
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -281,7 +283,7 @@ em {
   font-size: 1.3em
 }
 
-.project img {
+.newitem img {
   float: left;
   margin: 0 1em 1em 0;
   width: 10em;
@@ -293,7 +295,7 @@ em {
               -8px 4px 1px rgba(0,0,0,0.1);
 }
 
-.project h3 .details {
+.newitem  .details {
   font-size: 0.5em;
   color: #f25d50;
   display: inline-block;
@@ -302,15 +304,15 @@ em {
   padding: .2em .8em;
 }
 
-.project {
+.newitem {
   text-decoration: none !important;
 }
 
-.project a:hover {
+.newitem a:hover {
   opacity: 1.0;
 }
 
-.project:hover {
+.newitem:hover {
   margin: 14px 14px 6px 6px;
   box-shadow: none;
 }

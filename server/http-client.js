@@ -8,7 +8,7 @@ jsdom.env({
             var data = {};
             var newsItems = _.$(".zm-profile-section-item.zm-item.clearfix");
             data.headicon = _.$(".zm-profile-header-img.zg-avatar-big.zm-avatar-editor-preview").attr("src");
-            data.newstypeicon = "http://static.zhihu.com/static/img/sticky_header/logo.png";
+            data.newstypeicon = "http://www.zhihu.com/favicon.ico";
             data.news = [];
             _.$.each(newsItems, function(obj)
             {

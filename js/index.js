@@ -41,14 +41,16 @@ $(function() {
           var html = "";
           for (var i = 0, l = content.length; i < l; i ++) {
             html += nano(
-	   ['<div class="project">',
-		'<img src="http://static.zhihu.com/static/img/sticky_header/logo.png" style="width: 35px;">',
-		'<img src="http://p2.zhimg.com/91/ff/91ffa6dbe_l.jpg" style="width: 35px;">',
+	   ['<a target="_blank" href="{questionurl}">',
+		'<div class="newitem">',
+		'<img src="' + data.newstypeicon + '" style="width: 35px;">',
+		'<img src="' + data.headicon + '" style="width: 35px;">',
 		'<b>{type}</b>',
-		'<div style="float:right">{date}</div>', 
+		'<span class="details">{date}</span>', 
 		'<div>{question}</div>',
 		'<div>{content}</div>',
-            '</div>'].join(""), content[i]);
+            	'</div>',
+	    '</a>'].join(""), content[i]);
             
           }
             $(".news_content").html(html);	
