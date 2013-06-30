@@ -19,18 +19,6 @@
 }
 
 
-/** Toggle color */
-#toggle {
-  position: fixed;
-  z-index: 100;
-  background: rgba(256,256,256,0.3);
-  right: 0;
-  top: 0;
-  width: 3em;
-  height: 3em;
-  padding: 1em;
-}
-
 
 /** Center Areas */
 #middle {
@@ -191,7 +179,7 @@ em {
 
 
 /** Layouts for content. */
-.pale, .darkgreen, .lightgreen, .darkred, .lightred {
+.pale, .darkgreen, .lightgreen {
 }
 
 .pale h2 {
@@ -233,24 +221,10 @@ em {
   color: #cae5c3;
 }
 
-.darkred h2 {
-  color: #f25d50;
-  text-shadow: 0px 1px 0px #8b221f;
-}
-.darkred {
-  color: #f4f2d2;
-}
-
-.lightred h2 {
-  color: #f2d785;
-  text-shadow: 0px 1px 0px #b83f3b;
-}
-.lightred {
-}
 
 
 
-/** Projects stylings */
+/** newsitem stylings */
 .newitem {
   box-shadow: 1px -1px #737373,
               -1px 1px #404040,
