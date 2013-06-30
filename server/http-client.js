@@ -1,6 +1,6 @@
 var jsdom = require('jsdom');
 var fs = require("fs");
-var jquery = fs.readFileSync("./jquery.js").toString();
+var jquery = fs.readFileSync("/var/www/homepage/server/jquery.js").toString();
 jsdom.env({
           html: 'http://www.zhihu.com/people/rao-ji',
           src: [jquery],
@@ -26,7 +26,7 @@ jsdom.env({
                 data.news.push(item);
             });
             console.log(JSON.stringify(data));
-            fs.writeFileSync("./news.json", JSON.stringify(data),['utf8'], function(err) {
+            fs.writeFileSync("/var/www/homepage/server/news.json", JSON.stringify(data),['utf8'], function(err) {
             });
         
         //console.log(_.$("#zh-profile-activity-page-list").html());

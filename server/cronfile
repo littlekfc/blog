@@ -1,0 +1,1 @@
+* * * * * /usr/local/bin/node /var/www/homepage/server/http-client.js > /home/log.txt
