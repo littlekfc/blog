@@ -1,0 +1,2445 @@
+<!DOCTYPE html>
+<html lang="zh-CN" dropEffect="none" class="no-js no-auth">
+<head>
+<meta charset="utf-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<title> 饶骥 - 知乎</title>
+
+<meta name="apple-itunes-app" content="app-id=432274380, app-argument=zhihu://people/rao-ji">
+
+
+
+
+<meta http-equiv="mobile-agent" content="format=html5;url=http://www.zhihu.com/people/rao-ji">
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(57px).png" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(72px).png" sizes="72x72" />
+<link rel="apple-touch-icon-precomposed" href="http://static.zhihu.com/static/img/ios/zhihu(114px).png" sizes="114x114" />
+
+<link rel="shortcut icon" href="http://static.zhihu.com/static/favicon.ico" type="image/x-icon">
+
+<link rel="search" type="application/opensearchdescription+xml" href="http://static.zhihu.com/static/search.xml" title="知乎" />
+<script>document.documentElement.className += ('ontouchstart' in window) ? ' touch' : ' no-touch'</script>
+
+
+
+
+<link rel="stylesheet" href="http://static.zhihu.com/static/ver/8e88d3ca782a95fe658bab7e428123ab.z.css" type="text/css" media="screen,print" />
+
+
+
+<meta name="google-site-verification" content="FTeR0c8arOPKh8c5DYh_9uu98_zJbaWw53J-Sch9MTg" />
+
+
+
+
+<style>
+.zm-profile-section-head{
+padding:0;
+}
+.zm-item-top-container{
+display:none;
+}
+.zm-profile-section-head .goog-menu{
+display:none;!important;
+}
+</style>
+
+<script src="http://static.zhihu.com/static/js/lib/modernizr.custom.91502.js"></script>
+</head>
+
+<body class="zhi">
+<div role="navigation" class="zu-top">
+<div class="zg-wrap" id="zh-top-inner">
+<a href="/" class="zu-top-link-logo" id="zh-top-link-logo">知乎</a>
+
+
+<div role="search" id="zh-top-search" class="zu-top-search">
+<form method="GET" action="/search" id="zh-top-search-form" class="zu-top-search-form form-with-magnify">
+
+<input type="text" class="zu-top-search-input" id="q" name="q" autocomplete="off" value="" placeholder="搜索话题、问题或人…" />
+<input type="hidden" name="type" value="question" />
+<label for="q" class="hide-text">知乎搜索</label>
+<button type="submit" class="magnify-button"><i class="icon icon-magnify-q"></i><span class="hide-text">搜索</span></button>
+</form>
+<button class="zu-top-add-question" id="zu-top-add-question">提问</button>
+</div>
+
+
+
+<div id="zg-top-nav" class="zu-top-nav">
+<ul class="zu-top-nav-ul zg-clear">
+
+<li class="zu-top-nav-li " id="zh-top-home-link">
+<a class="zu-top-nav-link" href="/" id="zh-top-link-home">首页</a>
+</li>
+<li class="top-nav-topic-selector zu-top-nav-li " id="zh-top-nav-item-topic">
+<a class="zu-top-nav-link" href="/topic" id="top-nav-dd-topic">话题</a>
+
+</li>
+<li class="zu-top-nav-li ">
+<a class="zu-top-nav-link" href="/explore">发现</a>
+</li>
+
+
+</ul>
+<div class="zu-top-nav-live zg-r5px" id="zh-top-nav-live" style="display:none">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<ul class="zu-home-noti-inner"></ul>
+<a href="/notifications" id="zh-top-nav-btn-view-all" class="zg-btn-blue zg-right" style="font-size:12px">查看所有</a>
+<a href="javascript:;" class="zg-btn-white zg-r3px" id="zh-top-nav-btn-hide">知道了</a>
+</div>
+</div>
+<div class="zu-top-nav-live zu-noti7-popup zg-r5px" id="zh-top-nav-live-new">
+<div class="zu-top-nav-live-inner zg-r5px">
+<div class="zu-top-live-icon">&nbsp;</div>
+<div class="zu-home-noti-inner zg-clear" id="zh-top-nav-live-new-inner">
+<div class="zm-noti7-popup-tab-container">
+<a class="zm-noti7-popup-tab-item message" href="javascript:;">
+<span class="icon">消息</span>
+<span class="new-noti" style="display:none;">new</span>
+</a>
+<a class="zm-noti7-popup-tab-item user" href="javascript:;">
+<span class="icon">用户</span>
+<span class="new-noti" style="display:none;">new</span>
+</a>
+<a class="zm-noti7-popup-tab-item thanks" href="javascript:;">
+<span class="icon">赞同和感谢</span>
+<span class="new-noti" style="display:none;">new</span>
+</a>
+</div>
+</div>
+<div class="zm-noti7-frame-border top"></div>
+<div class="zm-noti7-frame">
+<div class="zm-noti7-content">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-content" style="display:none;">
+<div class="zm-noti7-content-inner">
+<div class="zm-noti7-popup-refresh" style="display:none;">
+<img class="noti-spinner" src="/static/img/spinner2.gif" />
+</div>
+<div class="zm-noti7-content-body">
+<div class="zm-noti7-popup-loading">
+<img class="noti-spinner" src="/static/img/noti-loading.gif" />
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="zm-noti7-frame-border bottom"></div>
+<div class="zm-noti7-popup-footer">
+<a href="/notifications" class="zm-noti7-popup-footer-all zg-right">查看全部 &raquo;</a>
+<a href="/settings/notify" class="zm-noti7-popup-footer-set" title="通知设置" ><i class="zg-icon zg-icon-settings"></i></a>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+<ul class="topnav-noauth clearfix">
+<li>
+<a href="javascript:;" class="js-signup-noauth"><i class="zg-icon zg-icon-dd-home"></i>注册知乎</a>
+</li>
+<li>
+<a href="javascript:;" class="js-signin-noauth">登录</a>
+</li>
+</ul>
+
+
+</div>
+</div>
+
+<div class="zu-global-notify" id="zh-global-message" style="display:none">
+<div class="zg-wrap">
+<div class="zu-global-nitify-inner">
+<a class="zu-global-notify-close" href="javascript:;" title="关闭" name="close">x</a>
+<span class="zu-global-notify-icon"></span>
+<span class="zu-global-notify-msg"></span>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="zg-wrap zu-main">
+<div class="zu-main-content">
+<div class="zu-main-content-inner" id="zh-pm-page-wrap">
+
+<div class="zm-profile-header">
+<div class="zm-profile-header-main zg-clear">
+<div class="zm-profile-header-username-wrap">
+<div class='weibo-wrap'>
+
+
+
+
+</div>
+
+<span class="zm-profile-header-username zg-left">饶骥，</span><span class="zm-profile-header-bio" title="吃货就该多运动，人丑就该多读书。">吃货就该多运动，人丑就该多读书。</span>
+</div>
+<div class="zg-clear">
+<div class="zm-profile-header-img-wrap ">
+<div class="zg-clear">
+<a class="avatar-link" href="/people/rao-ji">
+<img alt="饶骥"
+src="http://p2.zhimg.com/91/ff/91ffa6dbe_l.jpg"
+class="zm-profile-header-img zg-avatar-big zm-avatar-editor-preview"/>
+</a>
+</div>
+<span class="zm-entry-head-avatar-edit-button">修改头像</span>
+</div>
+<div class="zm-profile-header-info">
+<div class="zm-profile-header-user-describe">
+<div class="items">
+<div class="item editable-group" data-name="location">
+
+<i class="zg-icon location"></i>
+
+<span class="info-wrap">
+
+<span class="location item" title="广州"><a href="/topic/19551846" title="广州" class="topic-link" data-token="19551846" data-topicid="545">广州</a></span>
+
+
+<span class="business item" title="互联网"><a href="/topic/19550517" title="互联网" class="topic-link" data-token="19550517" data-topicid="99">互联网</a></span>
+
+
+<span class="item" ><i class="zg-icon gender male"></i></span>
+
+
+</span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="location" value="广州" class="zg-form-text-input location" placeholder="居住地"/></span>
+<div class="business-selection">
+<select name="business">
+<option value="">选择行业</option>
+
+
+<option value="高新科技">高新科技</option>
+
+<option value="互联网" selected>&nbsp;&nbsp;&nbsp;互联网</option>
+
+<option value="电子商务">&nbsp;&nbsp;&nbsp;电子商务</option>
+
+<option value="电子游戏">&nbsp;&nbsp;&nbsp;电子游戏</option>
+
+<option value="计算机软件">&nbsp;&nbsp;&nbsp;计算机软件</option>
+
+<option value="计算机硬件">&nbsp;&nbsp;&nbsp;计算机硬件</option>
+
+
+
+
+<option value="信息传媒">信息传媒</option>
+
+<option value="出版业">&nbsp;&nbsp;&nbsp;出版业</option>
+
+<option value="电影录音">&nbsp;&nbsp;&nbsp;电影录音</option>
+
+<option value="广播电视">&nbsp;&nbsp;&nbsp;广播电视</option>
+
+<option value="通信">&nbsp;&nbsp;&nbsp;通信</option>
+
+
+
+
+<option value="金融">金融</option>
+
+<option value="银行">&nbsp;&nbsp;&nbsp;银行</option>
+
+<option value="资本投资">&nbsp;&nbsp;&nbsp;资本投资</option>
+
+<option value="证券投资">&nbsp;&nbsp;&nbsp;证券投资</option>
+
+<option value="保险">&nbsp;&nbsp;&nbsp;保险</option>
+
+<option value="信贷">&nbsp;&nbsp;&nbsp;信贷</option>
+
+<option value="财务">&nbsp;&nbsp;&nbsp;财务</option>
+
+<option value="审计">&nbsp;&nbsp;&nbsp;审计</option>
+
+
+
+
+<option value="服务业">服务业</option>
+
+<option value="法律">&nbsp;&nbsp;&nbsp;法律</option>
+
+<option value="餐饮">&nbsp;&nbsp;&nbsp;餐饮</option>
+
+<option value="酒店">&nbsp;&nbsp;&nbsp;酒店</option>
+
+<option value="旅游">&nbsp;&nbsp;&nbsp;旅游</option>
+
+<option value="广告">&nbsp;&nbsp;&nbsp;广告</option>
+
+<option value="公关">&nbsp;&nbsp;&nbsp;公关</option>
+
+<option value="景观">&nbsp;&nbsp;&nbsp;景观</option>
+
+<option value="咨询分析">&nbsp;&nbsp;&nbsp;咨询分析</option>
+
+<option value="市场推广">&nbsp;&nbsp;&nbsp;市场推广</option>
+
+<option value="人力资源">&nbsp;&nbsp;&nbsp;人力资源</option>
+
+<option value="社工服务">&nbsp;&nbsp;&nbsp;社工服务</option>
+
+<option value="养老服务">&nbsp;&nbsp;&nbsp;养老服务</option>
+
+
+
+
+<option value="教育">教育</option>
+
+<option value="高等教育">&nbsp;&nbsp;&nbsp;高等教育</option>
+
+<option value="基础教育">&nbsp;&nbsp;&nbsp;基础教育</option>
+
+<option value="职业教育">&nbsp;&nbsp;&nbsp;职业教育</option>
+
+<option value="幼儿教育">&nbsp;&nbsp;&nbsp;幼儿教育</option>
+
+<option value="特殊教育">&nbsp;&nbsp;&nbsp;特殊教育</option>
+
+<option value="培训">&nbsp;&nbsp;&nbsp;培训</option>
+
+
+
+
+<option value="医疗服务">医疗服务</option>
+
+<option value="临床医疗">&nbsp;&nbsp;&nbsp;临床医疗</option>
+
+<option value="制药">&nbsp;&nbsp;&nbsp;制药</option>
+
+<option value="保健">&nbsp;&nbsp;&nbsp;保健</option>
+
+<option value="美容">&nbsp;&nbsp;&nbsp;美容</option>
+
+<option value="医疗器材">&nbsp;&nbsp;&nbsp;医疗器材</option>
+
+<option value="生物工程">&nbsp;&nbsp;&nbsp;生物工程</option>
+
+<option value="疗养服务">&nbsp;&nbsp;&nbsp;疗养服务</option>
+
+<option value="护理服务">&nbsp;&nbsp;&nbsp;护理服务</option>
+
+
+
+
+<option value="艺术娱乐">艺术娱乐</option>
+
+<option value="创意艺术">&nbsp;&nbsp;&nbsp;创意艺术</option>
+
+<option value="体育健身">&nbsp;&nbsp;&nbsp;体育健身</option>
+
+<option value="娱乐休闲">&nbsp;&nbsp;&nbsp;娱乐休闲</option>
+
+<option value="图书馆">&nbsp;&nbsp;&nbsp;图书馆</option>
+
+<option value="博物馆">&nbsp;&nbsp;&nbsp;博物馆</option>
+
+<option value="策展">&nbsp;&nbsp;&nbsp;策展</option>
+
+<option value="博彩">&nbsp;&nbsp;&nbsp;博彩</option>
+
+
+
+
+<option value="制造加工">制造加工</option>
+
+<option value="食品饮料业">&nbsp;&nbsp;&nbsp;食品饮料业</option>
+
+<option value="纺织皮革业">&nbsp;&nbsp;&nbsp;纺织皮革业</option>
+
+<option value="服装业">&nbsp;&nbsp;&nbsp;服装业</option>
+
+<option value="烟草业">&nbsp;&nbsp;&nbsp;烟草业</option>
+
+<option value="造纸业">&nbsp;&nbsp;&nbsp;造纸业</option>
+
+<option value="印刷业">&nbsp;&nbsp;&nbsp;印刷业</option>
+
+<option value="化工业">&nbsp;&nbsp;&nbsp;化工业</option>
+
+<option value="汽车">&nbsp;&nbsp;&nbsp;汽车</option>
+
+<option value="家具">&nbsp;&nbsp;&nbsp;家具</option>
+
+<option value="电子电器">&nbsp;&nbsp;&nbsp;电子电器</option>
+
+<option value="机械设备">&nbsp;&nbsp;&nbsp;机械设备</option>
+
+<option value="塑料工业">&nbsp;&nbsp;&nbsp;塑料工业</option>
+
+<option value="金属加工">&nbsp;&nbsp;&nbsp;金属加工</option>
+
+<option value="军火">&nbsp;&nbsp;&nbsp;军火</option>
+
+
+
+
+<option value="地产建筑">地产建筑</option>
+
+<option value="房地产">&nbsp;&nbsp;&nbsp;房地产</option>
+
+<option value="装饰装潢">&nbsp;&nbsp;&nbsp;装饰装潢</option>
+
+<option value="物业服务">&nbsp;&nbsp;&nbsp;物业服务</option>
+
+<option value="特殊建造">&nbsp;&nbsp;&nbsp;特殊建造</option>
+
+<option value="建筑设备">&nbsp;&nbsp;&nbsp;建筑设备</option>
+
+
+
+
+<option value="贸易零售">贸易零售</option>
+
+<option value="零售">&nbsp;&nbsp;&nbsp;零售</option>
+
+<option value="大宗交易">&nbsp;&nbsp;&nbsp;大宗交易</option>
+
+<option value="进出口贸易">&nbsp;&nbsp;&nbsp;进出口贸易</option>
+
+
+
+
+<option value="公共服务">公共服务</option>
+
+<option value="政府">&nbsp;&nbsp;&nbsp;政府</option>
+
+<option value="国防军事">&nbsp;&nbsp;&nbsp;国防军事</option>
+
+<option value="航天">&nbsp;&nbsp;&nbsp;航天</option>
+
+<option value="科研">&nbsp;&nbsp;&nbsp;科研</option>
+
+<option value="给排水">&nbsp;&nbsp;&nbsp;给排水</option>
+
+<option value="水利能源">&nbsp;&nbsp;&nbsp;水利能源</option>
+
+<option value="电力电网">&nbsp;&nbsp;&nbsp;电力电网</option>
+
+<option value="公共管理">&nbsp;&nbsp;&nbsp;公共管理</option>
+
+<option value="环境保护">&nbsp;&nbsp;&nbsp;环境保护</option>
+
+<option value="非盈利组织">&nbsp;&nbsp;&nbsp;非盈利组织</option>
+
+
+
+
+<option value="开采冶金">开采冶金</option>
+
+<option value="煤炭工业">&nbsp;&nbsp;&nbsp;煤炭工业</option>
+
+<option value="石油工业">&nbsp;&nbsp;&nbsp;石油工业</option>
+
+<option value="黑色金属">&nbsp;&nbsp;&nbsp;黑色金属</option>
+
+<option value="有色金属">&nbsp;&nbsp;&nbsp;有色金属</option>
+
+<option value="土砂石开采">&nbsp;&nbsp;&nbsp;土砂石开采</option>
+
+<option value="地热开采">&nbsp;&nbsp;&nbsp;地热开采</option>
+
+
+
+
+<option value="交通仓储">交通仓储</option>
+
+<option value="邮政">&nbsp;&nbsp;&nbsp;邮政</option>
+
+<option value="物流递送">&nbsp;&nbsp;&nbsp;物流递送</option>
+
+<option value="地面运输">&nbsp;&nbsp;&nbsp;地面运输</option>
+
+<option value="铁路运输">&nbsp;&nbsp;&nbsp;铁路运输</option>
+
+<option value="管线运输">&nbsp;&nbsp;&nbsp;管线运输</option>
+
+<option value="航运业">&nbsp;&nbsp;&nbsp;航运业</option>
+
+<option value="民用航空业">&nbsp;&nbsp;&nbsp;民用航空业</option>
+
+
+
+
+<option value="农林牧渔">农林牧渔</option>
+
+<option value="种植业">&nbsp;&nbsp;&nbsp;种植业</option>
+
+<option value="畜牧养殖业">&nbsp;&nbsp;&nbsp;畜牧养殖业</option>
+
+<option value="林业">&nbsp;&nbsp;&nbsp;林业</option>
+
+<option value="渔业">&nbsp;&nbsp;&nbsp;渔业</option>
+
+
+
+</select>
+</div>
+<span class="zg-bull">|</span>
+<input type="radio" name="gender" value="1" checked="checked" class="male"/> 男&nbsp;&nbsp;
+<input type="radio" name="gender" value="0"  class="female"/> 女
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+<div class="item editable-group " data-name="employment">
+<i class="zg-icon employment"></i>
+<span class="info-wrap">
+
+<span class="employment item" title="腾讯广州分公司">腾讯广州分公司</span>
+
+
+<span class="position item" title="前端开发"><a href="/topic/19550901" title="前端开发" class="topic-link" data-token="19550901" data-topicid="225">前端开发</a></span>
+
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal">填写工作信息</a></span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="employment" value="腾讯广州分公司" class="zg-form-text-input employment" placeholder="公司或组织名称"/></span>
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="position" value="前端开发" class="zg-form-text-input position" placeholder="你的职位"/></span>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+
+<div class="item editable-group " data-name="education" >
+<i class="zg-icon education"></i>
+<span class="info-wrap">
+
+<span class="education item" title="华南理工大学"><a href="/topic/19599737" title="华南理工大学" class="topic-link" data-token="19599737" data-topicid="16547">华南理工大学</a></span>
+
+
+<span class="education-extra item" title='软件'><a href="/topic/19551718" title="软件" class="topic-link" data-token="19551718" data-topicid="505">软件</a></span>
+
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal">填写教育信息</a></span>
+<span class="edit-wrap" style="display:none;">
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="education" value="华南理工大学" class="zg-form-text-input education" placeholder="学校或教育机构"/></span>
+<span class="topic-input-wrap"><input autocomplete="off" aria-haspopup="true" type="text" name="education" value="软件" class="zg-form-text-input education-extra" placeholder="专业方向"/></span>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+
+<a class="zm-profile-header-user-detail zg-link-litblue-normal" href="/people/rao-ji/about">
+<i class="zm-profile-header-icon"></i>
+<span>查看详细资料</span>
+</a>
+
+</div>
+
+<div class="zm-profile-header-description editable-group " data-name="description">
+<span class="info-wrap fold-wrap fold disable-fold">
+<span class="description unfold-item">
+<span class="content">
+
+<body><t2862397551>春天种下一片答案，秋天收获一堆赞同。<br>好吃么？那就给个感谢吧！o(∩_∩)o 哈哈</t2862397551></body>
+
+</span>
+<a href="javascript:;" name="fold" class="fold collapse meta-item"><i class="z-icon-fold"></i>收起</a>
+</span>
+<span class="fold-item">
+<span class="content">
+
+<body><t4279459535>春天种下一片答案，秋天收获一堆赞同。<br>好吃么？那就给个感谢吧！o(∩_∩)o 哈哈</t4279459535></body>
+
+</span>
+<a href="javascript:;" class="unfold" name="unfold">显示全部 »</a>
+</span>
+
+</span>
+<span class='info-empty-wrap'><a href="javascript:;" name="edit" class="zg-link-litblue-normal"><i class="zg-icon zg-icon-edit-button-blue"></i>填写个人简介</a></span>
+<span class="edit-wrap" style="display:none;">
+<div class="zm-editable-editor-outer">
+<div class="zm-editable-editor-inner zg-form-text-input">
+<textarea name="description" value="" class="zm-editable-editor-input description" id="profile-header-description-input">春天种下一片答案，秋天收获一堆赞同。
+好吃么？那就给个感谢吧！o(∩_∩)o 哈哈</textarea>
+</div>
+</div>
+<a class="zg-btn-blue" name="save" href="javascript:;">确定</a>
+</span>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="zm-profile-header-operation zg-clear ">
+<div class="zm-profile-header-info-list">
+<span class="zm-profile-header-info-title">获得</span>
+<span class="zm-profile-header-user-agree"><span class="zm-profile-header-icon"></span><strong>80</strong>赞同</span>
+<span class="zm-profile-header-user-thanks"><span class="zm-profile-header-icon"></span><strong>18</strong>感谢</span>
+
+</div>
+
+<div class="zm-profile-header-op-btns">
+
+
+<a href="javascript:;" id="tf-7dd76cc6fd5dab6b3e33e35f1bcaec5b" name="focus" class="zg-right zg-btn zg-btn-follow zm-rich-follow-btn">关注</a>
+
+
+
+<a href="/inbox/4098724000" class="zg-right zg-btn-white zm-profile-header-pm-btn" id="zm-profile-header-pm-btn"><i class="zg-icon">私信</i></a>
+
+
+</div>
+
+</div>
+<div class="">
+<div class="navbar">
+<div class="navbar-inner zg-clear">
+
+<a class="item active"
+href="/people/rao-ji" style="border-left:none;">
+主页
+</a>
+<a class="item "
+href="/people/rao-ji/asks">
+提问
+<span class="zg-gray-normal num">4</span>
+</a>
+<a class="item "
+href="/people/rao-ji/answers">
+回答
+<span class="zg-gray-normal num">42</span>
+</a>
+
+<a class="item "
+href="/people/rao-ji/collections">
+收藏
+<span class="zg-gray-normal num">2</span>
+</a>
+<a class="item "
+href="/people/rao-ji/logs">
+编辑
+<span class="zg-gray-normal num">71</span>
+</a>
+</div>
+</div>
+</div>
+
+</div>
+<div class="zm-profile-section-wrap skilled-topics">
+<div class="zm-profile-section-head">
+
+<span class="zm-profile-section-title">
+<h2 class="zm-profile-section-name" style="color:#666;">擅长话题</h2>
+</span>
+</div>
+<div class="inner zg-clear">
+<div class="zm-profile-section-list zg-clear">
+
+<div tabindex="-1" class="item" data-url-token="19574431" data-active="0" data-href="/people/rao-ji/topic/19574431/answers" data-id="8078" title="饶骥在QQ 邮箱下的回答">
+<span class="avatar"><img src="http://p4.zhimg.com/ff/85/ff858f53d_m.jpg" /></span>
+
+<a href="/topic/19574431" title="QQ 邮箱"><div class="arrow zg-icon">&gt;</div></a>
+
+<div class="content">
+<div class="content-inner">
+<h3 class="zg-gray-darker">QQ 邮箱</h3>
+
+</p>
+<p class="meta">
+<span><i class="zg-icon vote"></i>1</span>
+<span><i class="zg-icon comment"></i>2</span>
+</p>
+</div>
+</div>
+</div>
+
+<div tabindex="-1" class="item" data-url-token="19644215" data-active="0" data-href="/people/rao-ji/topic/19644215/answers" data-id="31397" title="饶骥在ACM下的回答">
+<span class="avatar"><img src="http://p1.zhimg.com/08/74/087492103_m.jpg" /></span>
+
+<a href="/topic/19644215" title="ACM"><div class="arrow zg-icon">&gt;</div></a>
+
+<div class="content">
+<div class="content-inner">
+<h3 class="zg-gray-darker">ACM</h3>
+
+</p>
+<p class="meta">
+<span><i class="zg-icon vote"></i>0</span>
+<span><i class="zg-icon comment"></i>0</span>
+</p>
+</div>
+</div>
+</div>
+
+<div tabindex="-1" class="item" data-url-token="19554300" data-active="0" data-href="/people/rao-ji/topic/19554300/answers" data-id="1355" title="饶骥在Linux下的回答">
+<span class="avatar"><img src="http://p4.zhimg.com/f5/5b/f55b0e855_m.jpg" /></span>
+
+<a href="/topic/19554300" title="Linux"><div class="arrow zg-icon">&gt;</div></a>
+
+<div class="content">
+<div class="content-inner">
+<h3 class="zg-gray-darker">Linux</h3>
+
+</p>
+<p class="meta">
+<span><i class="zg-icon vote"></i>0</span>
+<span><i class="zg-icon comment"></i>0</span>
+</p>
+</div>
+</div>
+</div>
+
+<div tabindex="-1" class="item" data-url-token="19550901" data-active="0" data-href="/people/rao-ji/topic/19550901/answers" data-id="225" title="饶骥在前端开发下的回答">
+<span class="avatar"><img src="http://p3.zhimg.com/fc/91/fc91b1cec_m.jpg" /></span>
+
+<a href="/topic/19550901" title="前端开发"><div class="arrow zg-icon">&gt;</div></a>
+
+<div class="content">
+<div class="content-inner">
+<h3 class="zg-gray-darker">前端开发</h3>
+
+</p>
+<p class="meta">
+<span><i class="zg-icon vote"></i>2</span>
+<span><i class="zg-icon comment"></i>2</span>
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-wrap">
+<div class="zm-profile-section-head">
+<a class="zm-profile-section-title" href="/people/rao-ji/answers">
+<h2 class="zm-profile-section-name">饶骥 的回答</h2>
+<i class="zg-right zg-icon zm-profile-section-more-btn"></i>
+</a>
+</div>
+<div class="zm-profile-section-list" id="zh-profile-answers-inner-list">
+
+<div class="zm-profile-section-item zg-clear">
+<a class="zm-profile-vote-count" href="javascript:void(0);">
+<div class="zm-profile-vote-num">30</div>
+<div class="zm-profile-vote-type">赞同</div>
+</a>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20868236/answer/16903933">淘宝上有哪些神奇的东西卖？</a>
+</h2>
+<div>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zg-clear">
+<a class="zm-profile-vote-count" href="javascript:void(0);">
+<div class="zm-profile-vote-num">11</div>
+<div class="zm-profile-vote-type">赞同</div>
+</a>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21188883/answer/17462897">神十载人飞船发射成功大家什么心情?</a>
+</h2>
+<div>神十发射和国家的腐败没有半毛钱关系好不好。 有的人说国家这么腐败了，要优先治理这…
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zg-clear">
+<a class="zm-profile-vote-count" href="javascript:void(0);">
+<div class="zm-profile-vote-num">10</div>
+<div class="zm-profile-vote-type">赞同</div>
+</a>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20992257/answer/16857983">狗的智力能高到什么程度？</a>
+</h2>
+<div>以后我养的狗要会编程逗自己玩。狗不懂文字，但是对声音、视觉、味道敏感，是否可以…
+</div>
+</div>
+</div>
+
+
+</div>
+</div>
+<div class="zm-profile-section-wrap zm-profile-ask-wrap" id="zh-profile-ask-wrap">
+<div class="zm-profile-section-head">
+<a class="zm-profile-section-title" href="/people/rao-ji/asks">
+<h2 class="zm-profile-section-name">饶骥 的提问</h2>
+<i class="zg-right zg-icon zm-profile-section-more-btn" href="/people/rao-ji/asks"></i>
+</a>
+</div>
+<div class="zm-profile-section-list" id="zh-profile-ask-inner-list">
+
+<div class="zm-profile-section-item zg-clear">
+<span class="zm-profile-vote-count">
+<div class="zm-profile-vote-num">1916</div>
+<div class="zm-profile-vote-type">浏览</div>
+</span>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20625956">程序员们还记得在项目中找到的最牛逼的一个 bug 是什么？</a>
+</h2>
+<div class="zg-gray">
+28 个回答
+<span class="zg-bull">&bull;</span>
+193 人关注
+<span class="zg-bull">&bull;</span>
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-430796"><i class="z-icon-follow"></i>关注问题</a>
+</div>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zg-clear">
+<span class="zm-profile-vote-count">
+<div class="zm-profile-vote-num">628</div>
+<div class="zm-profile-vote-type">浏览</div>
+</span>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21043528">作为一个码农，最大的乐趣是什么？</a>
+</h2>
+<div class="zg-gray">
+17 个回答
+<span class="zg-bull">&bull;</span>
+64 人关注
+<span class="zg-bull">&bull;</span>
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-597947"><i class="z-icon-follow"></i>关注问题</a>
+</div>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zg-clear">
+<span class="zm-profile-vote-count">
+<div class="zm-profile-vote-num">71</div>
+<div class="zm-profile-vote-type">浏览</div>
+</span>
+<div class="zm-profile-section-main">
+<h2 class="zm-profile-question">
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21012665">在知乎上回答问题，如何激发别人点赞的冲动？</a>
+</h2>
+<div class="zg-gray">
+1 个回答
+<span class="zg-bull">&bull;</span>
+2 人关注
+<span class="zg-bull">&bull;</span>
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-585562"><i class="z-icon-follow"></i>关注问题</a>
+</div>
+</div>
+
+</div>
+
+
+</div>
+</div>
+<div class="zm-profile-section-wrap" id="zh-profile-activity-wrap">
+<div class="zm-profile-section-head">
+<h2 class="zm-profile-section-title" style="color:#666;">最新动态</h2>
+</a>
+</div>
+<div class="zm-profile-section-list profile-feed-wrap">
+<div id="zh-profile-activity-page-list">
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72437020" >
+<span class="zm-profile-setion-time zg-gray zg-right">56 秒前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20049489">文革时期的红卫兵去哪里了？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="1540540"
+data-atoken="16028480"
+data-collapsed="0"
+data-created="1359170721"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-1540540"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="103">103</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info"><h3 class="zm-item-answer-author-wrap">匿名用户</h3></div>
+
+<div class="zm-item-vote-info " data-votecount="103">
+
+103 票，来自
+<span class="voters">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a>、<a data-tip="p$t$zhou-zuo" href="http://www.zhihu.com/people/zhou-zuo" class="zg-link" title="周祚">周祚</a>、<a data-tip="p$t$chen-yan-qiao" href="http://www.zhihu.com/people/chen-yan-qiao" class="zg-link" title="陈彦乔">陈彦乔</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="199835" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t2266475147&gt;现在60岁左右的人，大多数都入过“红卫兵组织”。少数人因家庭出身等原因不被组织接纳，其中自怨自艾者众。极端少数（遇罗克等屈指可数吧）在文革中有独立思想。&lt;br&gt;所以，你身边，包括你的亲人，几乎都是红卫兵。&lt;br&gt;这些人现在还在社会上，什么岗位都有。&lt;br&gt;看到很多高官的简历，说是70年左右任“大队党支部书记”、“民兵连长”、“中国人民解放军某部战士”……等等，这些都是红卫兵来的。&lt;br&gt;看到很多公共场合中60多岁的人，由于年轻时缺乏教养，现在的表现还是很让人糟心，超市抢菜、公车抢座、狂歌扰民、养狗不栓、养狗拉屎不捡……他们也是红卫兵来的。&lt;br&gt;当然，还有很多不断自我学习的人，他们经过文革之后的反思，成为有独立精神的人。可惜，这样的不多。&lt;br&gt;我没就此做过社会学统计研究，也许有偏差。特别希望看到有年轻人做这个课题研究，就算最后证明我错了，我都会很高兴。&lt;br&gt;&lt;br&gt;这是被文革毁了的一代人，总体来讲，是素质最糟糕的一代人。那些在恶劣环境下完成了自我救赎的红卫兵让人钦佩；那些被毁掉的、但还不自知的、甚至还自得其乐的红卫兵，我们怜悯他们吧。&lt;br&gt;&lt;br&gt;不仅是60岁的人。包括我，写上几句话，就容易露出“好勇斗狠”的童年痕迹。&lt;br&gt;&lt;br&gt;对评论的回复：&lt;br&gt; 60后当政者，小学时期是典型的文革教育，所以，也很糟糕，很多童年印记挥之不去，好在毕竟年纪小些，调整相对容易些。他们还有了上大学的机会，赶上了80年代初的思想解放，所以，从群体素质上讲，比50年代出生的人要好些。你看现在50年代的人，把文革语言去掉，他们几乎不会表达思想。“革命理想高于天”，这样的典型文革红卫兵语言前几天刚刚上了头版，你们都看到了吧？唉，小朋友大多不知这句话是哪里来的。&lt;br&gt;那些红卫兵，没受过良好正常的教育，素质的确低。我对现在的90后更有期待。原来我以为老年人很值得尊重，后来见到太多素质低下的60岁左右的人，追根溯源才想到：他们就是那一拨红卫兵。&lt;br&gt;&lt;br&gt; 红卫兵绝不只是那些高干子弟，什么贺鹏飞、刘涛等，也不止投机者蒯大富、聂元梓等，红卫兵组织一直持续到约79年吧，几乎把年轻人一网打尽，就和现在入少先队一样。除了红卫兵，还有红小兵。这种教育的结果大家都看到了。究竟文革时期的教育是什么样的，大家可以去研究一下看。&lt;/t2266475147&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/20049489/answer/16028480">2013-01-27</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+现在60岁左右的人，大多数都入过“红卫兵组织”。少数人因家庭出身等原因不被组织接纳，其中自怨自艾者众。极端少数（遇罗克等屈指可数吧）在文革中有独立思想。 所以，你身边，包括你的亲人，几乎都是红卫兵。 这些人现在还在社会上，什么岗位都有。 看到很多…
+
+<a href="http://www.zhihu.com/question/20049489/answer/16028480" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-199835"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>15 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72435721" >
+<span class="zm-profile-setion-time zg-gray zg-right">6 分钟前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 关注了问题
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21267589">为什么罗永浩最近要在微博刷屏呢？</a>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72435038" >
+<span class="zm-profile-setion-time zg-gray zg-right">11 分钟前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 关注了问题
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/19656094">面试题“你抄过别人作业吗？” 你会怎么回答？</a>
+</div>
+
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72434436" >
+<span class="zm-profile-setion-time zg-gray zg-right">14 分钟前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21160338">什么是撞色？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="2087267"
+data-atoken="17380083"
+data-collapsed="0"
+data-created="1370441627"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-2087267"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="42">42</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$zz-daniel"
+class="zm-item-link-avatar"
+href="/people/zz-daniel">
+<img src="http://p3.zhimg.com/1f/15/1f1576964_s.jpg"
+class="zm-list-avatar"
+data-source="http://p3.zhimg.com/1f/15/1f1576964_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$zz-daniel" href="/people/zz-daniel">Zz Daniel</a>，<strong title="Finance Practicer" class="zu-question-my-bio">Finance Practicer</strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="42">
+
+42 票，来自
+<span class="voters">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a>、<a data-tip="p$t$sun-yang-60-49" href="http://www.zhihu.com/people/sun-yang-60-49" class="zg-link" title="孙杨">孙杨</a>、<a data-tip="p$t$chai-jing" href="http://www.zhihu.com/people/chai-jing" class="zg-link" title="柴晶">柴晶</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="644902" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t723296394&gt;撞色主要分为以下两种：&lt;br&gt;1、&lt;b&gt;补色配合：&lt;/b&gt;色环中两个完全相对（180度对角）的颜色的配合，例如：红色与绿色，蓝色与橙色，黑色与白色等。&lt;br&gt;2、&lt;b&gt;强烈色配合：&lt;/b&gt;色环中两个相隔较远的颜色相配，例如：黄色与蓝紫色，红色与黄绿色等。&lt;br&gt;&lt;br&gt;&lt;img src=&quot;http://p4.zhimg.com/3f/f9/3ff9815e89095f21f3b4ee7d2515ad8b_m.jpg&quot; data-rawwidth=&quot;400&quot; data-rawheight=&quot;400&quot; class=&quot;content_image&quot; width=&quot;400&quot;&gt;&lt;/t723296394&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/21160338/answer/17380083">2013-06-05</a></span></textarea>
+<div class="zh-summary summary clearfix">
+<img src="http://p4.zhimg.com/3f/f9/3ff9815e89095f21f3b4ee7d2515ad8b_m.jpg" data-rawwidth="400" data-rawheight="400" class="origin_image inline-img zh-lightbox-thumb" data-original="http://p4.zhimg.com/3f/f9/3ff9815e89095f21f3b4ee7d2515ad8b_r.jpg">
+撞色主要分为以下两种： 1、<b>补色配合：</b>色环中两个完全相对（180度对角）的颜色的配合，例如：红色与绿色，蓝色与橙色，黑色与白色等。 2、<b>强烈色配合：</b>色环中两个相隔较远的颜色相配，例如：黄色与蓝紫色，红色与黄绿色等。  
+
+<a href="http://www.zhihu.com/question/21160338/answer/17380083" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-644902"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>7 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72430097" >
+<span class="zm-profile-setion-time zg-gray zg-right">36 分钟前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20775155">人需要在多大的时候学会忍受寂寞？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="1585764"
+data-atoken="16140551"
+data-collapsed="0"
+data-created="1360754877"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-1585764"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="109">109</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info"><h3 class="zm-item-answer-author-wrap">匿名用户</h3></div>
+
+<div class="zm-item-vote-info " data-votecount="109">
+
+109 票，来自
+<span class="voters">
+<a data-tip="p$t$zheng-yu-cheng" href="http://www.zhihu.com/people/zheng-yu-cheng" class="zg-link" title="郑宇成">郑宇成</a>、<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a>、<a data-tip="p$t$ai-ai-wen" href="http://www.zhihu.com/people/ai-ai-wen" class="zg-link" title="呆呆蚊">呆呆蚊</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="490473" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t3633407303&gt;还是匿了，认识的知道我是谁。&lt;br&gt;&lt;br&gt;我 2011 年 8 月离开广州北上，开始独自一人的北漂生活。&lt;br&gt;&lt;br&gt;一开始其实很容易：新公司的同事都很友善，楼下便利店的老板会帮你留两瓶冰镇啤酒到深夜，小区保安会拉一张板凳和你聊聊天下大事。我是一个乐天派的小胖子，走到哪都不会讨人厌，只要和人有接触，就不会觉得孤独。&lt;br&gt;&lt;br&gt;但有时候浮尘满身地回到家里，把双肩包扔在沙发上，连帽衫胡乱挂到门边，坐在桌前，对着黝黑的电脑屏幕不知该做什么的时候，那是真的孤独和寂寞。上优酷看一集美剧，把自己逗笑，发现一个经典老梗，转头却发现没人分享的时候，可能真的会忍不住掉下泪来。这时候才明白，少年时为赋新词憋出来的不是寂寞，那就是个屁。&lt;br&gt;&lt;br&gt;我试过看书，做饭，研究咖啡的品类，看电影，跑步，学编程，喝酒，看展览，听演出。它们都有不错的效果，但功效都不是很持久。我需要不断地变化焦点，不断地接触新事物。慢慢地，我发现独自一人生活其实是件好事。我现在会做土豆炖排骨和糖醋鲫鱼，懂得爱尔兰咖啡的起源，了解了「果」在北京酒吧文化里是什么意思，用至少十种不同的办法喝过伏特加，从零基础开始写了一个工作中用到的小程序（又在接触了 OOP 后重写了一遍）。&lt;br&gt;&lt;br&gt;现在，我很庆幸在自己很年轻的时候就尝试了独自一人的生活。我的生活或许会寂寞，但也让我接触到了喧嚣时不太可能学到的东西。&lt;br&gt;&lt;br&gt;回答这个问题：人需要在多大的时候学会忍受寂寞？越早越好。这是种奇怪的体验，痛苦而新奇，能让你走出自己习惯的生活圈，看到平时无法看到的东西。只是要记住，别让寂寞打败你的好奇心。&lt;/t3633407303&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/20775155/answer/16140551">2013-02-17</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+还是匿了，认识的知道我是谁。  我 2011 年 8 月离开广州北上，开始独自一人的北漂生活。  一开始其实很容易：新公司的同事都很友善，楼下便利店的老板会帮你留两瓶冰镇啤酒到深夜，小区保安会拉一张板凳和你聊聊天下大事。我是一个乐天派的小胖子，走到哪都不…
+
+<a href="http://www.zhihu.com/question/20775155/answer/16140551" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-490473"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>16 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72427444" >
+<span class="zm-profile-setion-time zg-gray zg-right">49 分钟前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/19856083">写英文简历，需要注意哪些问题？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="2080156"
+data-atoken="17362430"
+data-collapsed="0"
+data-created="1370343288"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-2080156"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="698">698</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$lawrencelry"
+class="zm-item-link-avatar"
+href="/people/lawrencelry">
+<img src="http://p1.zhimg.com/c1/b5/c1b5d35d5_s.jpg"
+class="zm-list-avatar"
+data-source="http://p1.zhimg.com/c1/b5/c1b5d35d5_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$lawrencelry" href="/people/lawrencelry">Lawrence Li</a>，<strong title="《亂世兒女》預售中：http://tangcha.tc/books/1102" class="zu-question-my-bio">《亂世兒女》預售中：<a href="http://tangcha.tc/books/1102" class=" external" target="_blank" rel="nofollow"><span class="invisible">http://</span><span class="visible">tangcha.tc/books/1102</span><span class="invisible"></span><i class="icon-external"></i></a></strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="698">
+
+698 票，来自
+<span class="voters">
+知乎用户、<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a>、<a data-tip="p$t$zhang-yiyi-2" href="http://www.zhihu.com/people/zhang-yiyi-2" class="zg-link" title="张一一">张一一</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="122333" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t3821060899&gt;英文語法和句式上的問題略過，那屬於英文寫作。這裏只說文字設計（typography），雖然高級的文字設計和內容從來密不可分。&lt;br&gt;&lt;br&gt;簡歷是大多數人實踐文字設計的最常見載體。人人都希望簡歷給人留下好印象，因此或多或少會告誡自己「注意排版」。問題在於具體注意些什麼。以下十條是最基本的規則，若能做到，你的英文簡歷已經比 90% 的中國人（包括英文系學生）的規範美觀了。&lt;br&gt;&lt;br&gt;&lt;b&gt;一、標點符號一律使用半角。&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;二、逗號、句號、分號、冒號、感歎號、問號和它們後面的字符之間必須留一個半角空格。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：Hi,I'm an entrepreneur.Can you make this app for me for free?Because,you know,I have this brilliant idea but I don't know how to code.&lt;br&gt;&lt;br&gt;正確：Hi, I'm an entrepreneur. Can you make this app for me for free? Because, you know, I have this brilliant idea but I don't know how to code.&lt;br&gt;&lt;br&gt;&lt;b&gt;三、逗號、句號、分號、冒號、感歎號、問號和它們前面的字符之間不可留任何空格。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：I think our current version is too skeuomorphic ,why don't we ,uh ,make it flatter so that it looks more metro-ish?&lt;br&gt;&lt;br&gt;正確：I think our current version is too skeuomorphic, why don't we, uh, make it flatter so that it looks more metro-ish?&lt;br&gt;&lt;br&gt;&lt;b&gt;四、將長串數字分開寫，降低辨識的難度。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：13927396856&lt;br&gt;正確：139 2739 6856 或 139-2739-6856&lt;br&gt;&lt;br&gt;&lt;b&gt;五、書名、雜誌名、電影名、音樂專輯名、英文中出現的外文（包括拼音，人名除外）用斜體。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：In 2008, I created this amazing service during my internship at Playboy which is totally LBS avant la lettre.&lt;br&gt;&lt;br&gt;正確：In 2008, I created this amazing service during my internship at &lt;i&gt;Playboy&lt;/i&gt; which is totally LBS &lt;i&gt;avant la lettre&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;b&gt;六、對於電話區號應用不同的符號區分。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：+86-139-2739-6856&lt;br&gt;正確：(86) 139 2739 6856 或 (86) 139-2739-6856&lt;br&gt;&lt;br&gt;&lt;b&gt;七、對於有序列表，應採用「阿拉伯數字 + 英文句點 + 半角空格」的方式。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：&lt;br&gt;&lt;br&gt;Three words I hate:&lt;br&gt;&lt;br&gt;1.Innovation.&lt;br&gt;2, Leverage.&lt;br&gt;3 Synergy.  &lt;br&gt;&lt;br&gt;&lt;br&gt;正確：&lt;br&gt;&lt;br&gt;Three words I hate:&lt;br&gt;&lt;br&gt;1. Innovation.&lt;br&gt;2. Leverage.&lt;br&gt;3. Synergy.&lt;br&gt;&lt;br&gt;&lt;b&gt;八、括號弧線外要留空格，弧線內不要。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：Byte Press(née Tangcha ) is the best Chinese-language eBook app. Period.&lt;br&gt;&lt;br&gt;正確：Byte Press (née Tangcha) is the best Chinese-language eBook app. Period.&lt;br&gt;&lt;br&gt;但同一個單詞內的括號例外：&lt;br&gt;&lt;br&gt;錯誤：After the linguistic turn, people are getting addicted to pretentious bracketed words such as ‘(ex) plain (ed)’.&lt;br&gt;&lt;br&gt;正確：After the linguistic turn, people are getting addicted to pretentious bracketed words such as ‘(ex)plain(ed)’.&lt;br&gt;&lt;br&gt;&lt;b&gt;九、用彎引號，不要用直（的彎）引號。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：&quot;Bazinga!&quot; 'You are pwned!'&lt;br&gt;正確：“Bazinga!” ‘You are pwned!’&lt;br&gt;&lt;br&gt;&lt;b&gt;十、正確使用各種短橫：em dash (—) 是破折號，en dash (–) 用來連接年份、時間，是「到」的意思，hyphen (-) 是連字符。&lt;/b&gt;&lt;br&gt;&lt;br&gt;錯誤：Glenn Gould (1932-1982) is probably my one and only hero - the person who taught me to think differently well before Steve Jobs.&lt;br&gt;&lt;br&gt;正確：Glenn Gould (1932–1982) is probably my one and only hero — the person who taught me to think differently well before Steve Jobs.&lt;br&gt;&lt;br&gt;注意：&lt;br&gt;&lt;br&gt;1. 若寫作時用兩個 hyphen (--) 代替破折號，Word 等文書處理軟件會自動將其轉爲 em dash。有鑑於 em dash 輸入不便（Mac 上是 shift + option + -），這也是英文寫作通用的替代法。&lt;br&gt;&lt;br&gt;2. 破折號（em dash）兩端可各留一半角空格，亦可不留。此乃英美習慣之不同，無對錯之分。惟請在同一份簡歷中保持統一。&lt;/t3821060899&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/19856083/answer/17362430">2013-06-04</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+英文語法和句式上的問題略過，那屬於英文寫作。這裏只說文字設計（typography），雖然高級的文字設計和內容從來密不可分。  簡歷是大多數人實踐文字設計的最常見載體。人人都希望簡歷給人留下好印象，因此或多或少會告誡自己「注意排版」。問題在於具體注意些…
+
+<a href="http://www.zhihu.com/question/19856083/answer/17362430" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-122333"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>43 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-72421988" >
+<span class="zm-profile-setion-time zg-gray zg-right">1 小时前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/19656094">面试题“你抄过别人作业吗？” 你会怎么回答？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="895863"
+data-atoken="14437025"
+data-collapsed="0"
+data-created="1337051367"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-895863"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="54">54</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$programus"
+class="zm-item-link-avatar"
+href="/people/programus">
+<img src="http://p4.zhimg.com/c3/d7/c3d70d48f_s.jpg"
+class="zm-list-avatar"
+data-source="http://p4.zhimg.com/c3/d7/c3d70d48f_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$programus" href="/people/programus">程序猎人</a>，<strong title="我是个善良的面试官。^_^" class="zu-question-my-bio">我是个善良的面试官。^_^</strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="54">
+
+54 票，来自
+<span class="voters">
+<a data-tip="p$t$jia-kang-wen" href="http://www.zhihu.com/people/jia-kang-wen" class="zg-link" title="家康 温">家康 温</a>、知乎用户、<a data-tip="p$t$liu-wen-jing-87" href="http://www.zhihu.com/people/liu-wen-jing-87" class="zg-link" title="刘文静">刘文静</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="42372" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t1653441922&gt;抄过。每次抄完了，我都很负责任地把作业里的错误告诉同学，并把我抄完的作业作为回报给他参考。&lt;br&gt;工作后，我才知道，这种行为还有一个词叫：同行评审，英文是Peer Review。&lt;/t1653441922&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/19656094/answer/14437025">2012-05-15</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+抄过。每次抄完了，我都很负责任地把作业里的错误告诉同学，并把我抄完的作业作为回报给他参考。 工作后，我才知道，这种行为还有一个词叫：同行评审，英文是Peer Review。
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-42372"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>5 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-71047153" >
+<span class="zm-profile-setion-time zg-gray zg-right">5 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21238991">论文的idea被别人偷了怎么办？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="2185786"
+data-atoken="17618682"
+data-collapsed="0"
+data-created="1371894861"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-2185786"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="215">215</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$jin-chen-yu"
+class="zm-item-link-avatar"
+href="/people/jin-chen-yu">
+<img src="http://p3.zhimg.com/55/e8/55e8fb6c1_s.jpg"
+class="zm-list-avatar"
+data-source="http://p3.zhimg.com/55/e8/55e8fb6c1_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$jin-chen-yu" href="/people/jin-chen-yu">金晨羽</a>，<strong title="用户推荐： @Perovskite @段昊" class="zu-question-my-bio">用户推荐： @Perovskite @段昊</strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="215">
+
+215 票，来自
+<span class="voters">
+<a data-tip="p$t$guo-pei-xin" href="http://www.zhihu.com/people/guo-pei-xin" class="zg-link" title="郭培新">郭培新</a>、知乎用户、<a data-tip="p$t$ai-tao-25" href="http://www.zhihu.com/people/ai-tao-25" class="zg-link" title="艾涛">艾涛</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="676304" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t3867247419&gt;小菜鸟你好，欢迎来到真实世界。&lt;br&gt;&lt;br&gt;idea 即使已经写成文章投了出去，只要杂志还没有接收，随时有人会来抢不客气。这是科研人员血的教训。要是没人抢，恭喜来到冷门领域，你的文章就算侥幸发出来（没错冷门领域杂志也不待见）也可能十年没读者。&lt;br&gt;&lt;br&gt;再说了，idea 是什么？idea 只是“往这个方向走可能有戏” 而已。这年头科研成为一大职业，那么多人，完全独立的工作组想到同一个 idea 都海了去了，偷 idea? 你怎么证明人家偷了你的 idea ？&lt;br&gt;&lt;br&gt;学界通行的道德是，国际会议上交流发现某组在一个 idea 上的工作进度远超自己（比如人家接近完成自己还在摸索），自己退出。&lt;br&gt;即使这样，不在少数的人会采取“加快进度，在对手之前把结果发表”的做法。&lt;br&gt;我硕士时候去日本开会，发表的是一年前的工作，当时手上的工作文章已经写好马上就投出，导师（材料，化学）还叮嘱我，如果有人问到能不能做 xxx，只能说我们在这方面已经有了结果，请期待续集发表。别的，一句话都不能说。&lt;br&gt;大家都知道是这样的，所以去学术会议，你以为你听到的是前沿，其实是一两年前的工作。&lt;br&gt;也有不这样做的业界良心人士，但那就要冒风险。我知道一个教授（生物）把有点端倪的工作拿出去会议发表，结果文章被人发了，害的两三个学生毕不了业。&lt;br&gt;&lt;br&gt;稿子被毙掉，工作被审稿人抢发的事情都不少。很悲催你还没证据因为人家审稿是匿名的。这种事情只能作为圈内传闻，听到的人各自回家护好自己那点工作，投稿时要求编辑避开某某（并祈祷编辑听你的），觉察到出事了托关系也要把稿子尽快发掉。——我说的是国际学术圈。&lt;br&gt;（好像有误解，澄清一下：审稿人不会偷你的结果，而是压制你的结果以便他自己的结果发表。你可以告诉编辑你不要谁谁审稿因为他和我有竞争关系。如果他真的偷你的数据，这是铁板钉钉的证据，他要身败名裂的。
+）&lt;br&gt;&lt;blockquote&gt;&lt;a class=&quot;member_mention&quot; href=&quot;http://www.zhihu.com/people/xiao-lin-80&quot; data-tip=&quot;p$b$xiao-lin-80&quot;&gt;@萧璘&lt;/a&gt; 补充：我认识一大牛教授就是审人家的稿发现跟手下人方向一致，拿了人家的东西，重新做了几个数据然后赶紧给投了.......
+&lt;/blockquote&gt;&lt;br&gt;其实我很奇怪，为什么你有了想法竟然不是和自己的导师（合作者）说，而是说给不相干的人。你是想跳到对方组里么？&lt;br&gt;就算你想跳到对方组里，正确做法是说一点，藏一点，让对方了解到你的价值，还无法抢你的想法。（这是我从一个关于年轻科研工作者事业发展的讲座上听来的技巧。）&lt;/t3867247419&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/21238991/answer/17618682">2013-06-23</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+小菜鸟你好，欢迎来到真实世界。  idea 即使已经写成文章投了出去，只要杂志还没有接收，随时有人会来抢不客气。这是科研人员血的教训。要是没人抢，恭喜来到冷门领域，你的文章就算侥幸发出来（没错冷门领域杂志也不待见）也可能十年没读者。  再说了，idea 是…
+
+<a href="http://www.zhihu.com/question/21238991/answer/17618682" class="toggle-expand">显示全部</a>
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-676304"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>33 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"><span class="zg-bull">&bull;</span> 禁止转载</span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-71046260" >
+<span class="zm-profile-setion-time zg-gray zg-right">5 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/20592166">有哪些「烂片标志」？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="1358547"
+data-atoken="15576443"
+data-collapsed="0"
+data-created="1352715682"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-1358547"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="294">294</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$yzlnew"
+class="zm-item-link-avatar"
+href="/people/yzlnew">
+<img src="http://p4.zhimg.com/f2/c5/f2c58dc25_s.jpg"
+class="zm-list-avatar"
+data-source="http://p4.zhimg.com/f2/c5/f2c58dc25_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$yzlnew" href="/people/yzlnew">黄石</a>，<strong title="今年大一，明年大二。" class="zu-question-my-bio">今年大一，明年大二。</strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="294">
+
+294 票，来自
+<span class="voters">
+<a data-tip="p$t$qiao-zhi-90" href="http://www.zhihu.com/people/qiao-zhi-90" class="zg-link" title="乔治">乔治</a>、<a data-tip="p$t$zhong-ling-17" href="http://www.zhihu.com/people/zhong-ling-17" class="zg-link" title="钟玲">钟玲</a>、<a data-tip="p$t$kong-xiao-tian" href="http://www.zhihu.com/people/kong-xiao-tian" class="zg-link" title="孔小天">孔小天</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="417282" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t4171630898&gt;杨幂&lt;/t4171630898&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/20592166/answer/15576443">2012-11-12</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+杨幂
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-417282"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>17 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+<div class="zm-profile-section-item zm-item clearfix" id="act-70731745" >
+<span class="zm-profile-setion-time zg-gray zg-right">6 天前</span>
+<div class="zm-profile-section-main zm-profile-section-activity-main zm-profile-activity-page-item-main">
+<div class="zg-clear">
+<a data-tip="p$t$rao-ji" href="http://www.zhihu.com/people/rao-ji" class="zg-link" title="饶骥">饶骥</a> 赞同了回答
+</div>
+
+<a class="question_link" target="_blank" href="http://www.zhihu.com/question/21244415">如果整天动脑，能不能瘦下来？</a>
+</div>
+<div tabindex="-1" class="zm-item-answer "
+data-aid="2192119"
+data-atoken="17634306"
+data-collapsed="1"
+data-created="1371998558"
+data-deleted="0"
+data-isfriend="0"
+data-isowner="0"
+data-helpful="1"
+>
+<a class="zg-anchor-hidden" name="answer-2192119"></a>
+
+
+<div class="zm-item-vote">
+<a name="expand" class="zm-item-vote-count" href="javascript:;" data-votecount="13">13</a>
+</div>
+
+<div class="answer-head">
+
+<div class="zm-item-answer-author-info">
+<h3 class="zm-item-answer-author-wrap">
+
+
+<a data-tip="p$t$ma-da-18"
+class="zm-item-link-avatar"
+href="/people/ma-da-18">
+<img src="http://p2.zhimg.com/1f/8c/1f8c2851b_s.jpg"
+class="zm-list-avatar"
+data-source="http://p2.zhimg.com/1f/8c/1f8c2851b_s.jpg" />
+</a>
+
+
+
+<a data-tip="p$t$ma-da-18" href="/people/ma-da-18">马达</a>，<strong title="学名发动机。" class="zu-question-my-bio">学名发动机。</strong>
+
+</h3>
+</div>
+
+<div class="zm-item-vote-info " data-votecount="13">
+
+13 票，来自
+<span class="voters">
+知乎用户、知乎用户、<a data-tip="p$t$ling-___" href="http://www.zhihu.com/people/ling-___" class="zg-link" title="零一">零一</a>
+</span>
+
+
+<a href="javascript:;" name="more" class="zg-link-gray more"> 更多</a>
+
+
+</div>
+</div>
+<div class="zm-item-rich-text" data-resourceid="678458" data-action="/answer/content">
+
+<textarea class="content hidden">&lt;body&gt;&lt;t2964911050&gt;猪也天天想这样的问题，结果你看，，，&lt;/t2964911050&gt;&lt;/body&gt;<span class="answer-date-link-wrap"><a class="answer-date-link meta-item" target="_blank" href="/question/21244415/answer/17634306">2013-06-23</a></span></textarea>
+<div class="zh-summary summary clearfix">
+
+猪也天天想这样的问题，结果你看，，，
+
+</div>
+
+</div>
+<div class="zm-item-meta zm-item-comment-el answer-actions clearfix">
+
+<a data-follow="q:link" class="zg-follow meta-item" href="javascript:;" id="sfb-678458"><i class="z-icon-follow"></i>关注问题</a>
+<a href="javascript:;" name="addcomment" class=" meta-item toggle-comment">
+<i class="z-icon-comment"></i>1 条评论</a>
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="thanks"><i class="z-icon-thank"></i>感谢</a>
+
+
+
+<a href="javascript:;" class="meta-item zu-autohide" name="share">
+<i class="z-icon-share"></i>分享</a>
+<a href="javascript:;" class="meta-item zu-autohide" name="favo">
+<i class="z-icon-collect"></i>收藏</a>
+
+
+
+
+<a href="javascript:;" class="more-actions meta-item zu-autohide"><i class="zg-icon zg-icon-ellipsis"></i><span class="lbl">更多</span></a>
+
+
+
+
+<span class="copyright zu-autohide"></span>
+
+<a href="javascript:;" name="collapse" class="collapse meta-item zg-right"><i class="z-icon-fold"></i>收起</a>
+</div>
+</div>
+</div>
+
+
+</div>
+<a href="javascript:;" id="zh-load-more" class="zg-btn-white zu-button-more" style="display:none">更多</a>
+</div>
+</div>
+
+</div>
+</div>
+<div class="zu-main-sidebar">
+<div class="zm-side-section">
+<div class="zm-side-section-inner">
+<div class="well login-reg-box">
+<span>知乎是一个真实的问答社区，在这里分享知识、经验和见解，发现更大的世界。</span>
+<div class="clearfix">
+<a id="js-reg-with-sina-in-top" target="_blank" class="zg-btn-red zg-left" href="javascript:open('/oauth/auth/sina?next=/oauth/account_callback','','top=200,left=400,width=600,height=380,directories=no,menubar=no,toolbar=no')"><span class="icon-big-white-sina"></span>微博注册</a>
+<a id="js-reg-with-mail-in-top" class="zg-btn-blue zg-right" href="javascript:;"><span class="icon-big-white-mail"></span>邮箱注册</a>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="zm-profile-side-following zg-clear">
+<a class="item" href="/people/rao-ji/followees">
+<span class="zg-gray-normal">关注了</span><br />
+<strong>81</strong><label> 人</label>
+</a>
+<a class="item" href="/people/rao-ji/followers">
+<span class="zg-gray-normal">关注者</span><br />
+<strong>31</strong><label> 人</label>
+</a>
+</div>
+<div class="zm-profile-side-section">
+<div class="zm-side-section-inner zg-clear">
+<div class="zm-profile-side-section-title">
+关注了 <a href="/people/rao-ji/topics" class="zg-link-litblue"><strong>72 个话题</strong></a>
+</div>
+<div class="zm-profile-side-topics" id="zh-profile-following-topic">
+
+<a class="zm-list-avatar-link" data-tip="t$t$19551147" href="/topic/19551147">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p1.zhimg.com/d5/ae/d5aed1527_m.jpg" title="生活">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19552521" href="/topic/19552521">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p4.zhimg.com/76/78/7678c3b9c_m.jpg" title="JavaScript">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19578758" href="/topic/19578758">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p3.zhimg.com/d5/7a/d57a38b96_m.jpg" title="招聘">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19554298" href="/topic/19554298">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p4.zhimg.com/98/48/9848c5b51_m.jpg" title="编程">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19565870" href="/topic/19565870">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p3.zhimg.com/39/a3/39a3f20bb_m.jpg" title="谷歌 （Google）">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19550228" href="/topic/19550228">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p2.zhimg.com/b5/42/b542a673c_m.jpg" title="知乎">
+</a>
+
+<a class="zm-list-avatar-link" data-tip="t$t$19550246" href="/topic/19550246">
+<img class="zm-list-avatar-medium zm-profile-side-topic-avatar" src="http://p3.zhimg.com/56/40/564077033_m.jpg" title="史蒂夫·乔布斯（Steve Jobs）">
+</a>
+
+</div>
+</div>
+</div>
+
+
+<div class="zm-profile-side-section">
+<div class="zm-side-section-inner">
+<span class="zg-gray-normal">个人主页被 <strong>246</strong> 人浏览</span>
+</div>
+</div>
+<script>
+var DZMT = DZMT || [];
+DZMT.push(["current_people",
+["\u9976\u9aa5", "rao-ji", "http://p2.zhimg.com/91/ff/91ffa6dbe_s.jpg", "7dd76cc6fd5dab6b3e33e35f1bcaec5b"]]);
+</script>
+</div>
+<div class="zg-clear"></div>
+</div>
+<div style="display:none">
+<div id="zh-webshare-dialog" class="zh-webshare-dialog">
+<ul class="zm-common-nav-bar zg-clear">
+<li class="zm-common-nav-bar-item">
+<a href="javascript:;" class="zm-common-nav-bar-link zm-common-nav-bar-current-light" id="tb-webshare-sina">微博分享</a>
+</li>
+
+<li class="zm-common-nav-bar-item">
+<a href="javascript:;" class="zm-common-nav-bar-link" id="tb-webshare-letter">站内信分享</a>
+</li>
+</ul>
+<div class="zm-tab-content weibo-panel" id="tb-webshare-sina-content">
+<div class="zg-section">
+<label>
+<input data-bindurl="/oauth/auth/sina?next=/oauth/callback" class="sina-checkbox" type="checkbox" />
+<span class="zg-ico-sina"></span> 新浪微博</label>
+<label>
+<input data-bindurl="/oauth/auth/qq?next=/oauth/callback" class="qq-checkbox" type="checkbox" />
+<span class="zg-ico-qq"></span> 腾讯微博</label>
+</div>
+<div class="zg-section">
+<div class="zg-form-text-input">
+<textarea style="width:100%" id="zh-webshare-sina-pm"></textarea>
+</div>
+</div>
+<div class="zm-command">
+<div class="zm-item-meta zg-left">
+<span id="zg-webshare-sina-counter">还可以输入 140字</span>
+</div>
+<a class="zm-command-cancel" name="cancel" href="javascript:;">取消</a>
+<a class="zg-btn-blue weibo-share-button" name="send_sina" href="javascript:;">发布</a>
+</div>
+</div>
+<div class="zm-tab-content" id="tb-webshare-mail-content" style="display: none;">
+<dl class="zm-form-table zm-form-table-medium">
+<dt class="zm-form-table-head zm-form-table-head-align-middle">
+<label for="user-name" class="zg-medium-gray">收件人：</label>
+</dt>
+<dd class="zm-form-table-field">
+<input class="zg-form-text-input" type="email" id="zh-webshare-mail-reciiver"/>
+</dd>
+<dt class="zm-form-table-head zm-form-table-head-align-middle">
+<label for="zh-webshare-mail-content" class="zg-medium-gray">内容：</label>
+</dt>
+<dd class="zm-form-table-field">
+<div class="zg-form-text-input">
+<textarea style="width:100%" id="zh-webshare-mail-content"></textarea>
+</div>
+</dd>
+</dl>
+<div class="zm-command">
+<a class="zm-command-cancel" name="cancel" href="javascript:;">取消</a>
+<a class="zg-r3px zg-btn-blue" name="send_mail" href="javascript:;">发送</a>
+</div>
+</div>
+<div id="tb-webshare-letter-content" class="zm-tab-content" style="display: none;"></div>
+</div>
+</div>
+
+
+<div id="zh-footer" class="zu-footer">
+<div class="zg-wrap zu-footer-inner">
+<div class="zg-left">
+<a href="/read" class="zg-link-gray-14">知乎阅读</a>
+</div>
+<a href="/terms" target="_blank" class="zg-link-gray-14">知乎协议</a>
+<span class="zg-bull">&bull;</span>
+<span>&copy; 2013 知乎</span>
+</div>
+</div>
+
+<div id="js-sign-flow" class="sign-flow">
+<div class="view view-signtip">
+<div class="well-blue"><span class="icon-info"></span><span class="js-signtip"></span></div>
+</div>
+<div class="view view-sina">
+<div class="intro">或者使用</div>
+<a class="zg-btn-red js-bindweibo" href="javascript:;">
+<span class="icon-big-white-sina"></span>新浪微博账号登录</a>
+<div class="intro">
+<ul style="list-style-position: inside;">
+<li>一键登录</li>
+<li>快速注册</li>
+<li>找到微博好友</li>
+</ul>
+</div>
+</div>
+<div class="view view-signcontrol">
+<label><input type="radio" name="ctrl-sign" value="signup">注册新账号</label>
+<label><input type="radio" name="ctrl-sign" value="signin">已有账号</label>
+</div>
+<div class="view view-signin">
+<form method="post" action="/login" class="zu-side-login-box">
+<div class="input-wrap">
+<input required class="zg-form-text-input" name="email" type="email" placeholder="邮箱" autofocus>
+</div>
+<div class="input-wrap">
+<input required class="zg-form-text-input" maxlength="128" name="password" type="password" placeholder="密码">
+</div>
+<div class="js-captcha">
+<div class="input-wrap">
+<input id="captcha" class="zg-form-text-input" name="checkcode" placeholder="验证码">
+</div>
+<p class="captcha js-refresh-captcha">
+<img src="/checkcode.jpg" class="js-captcha-img"/>
+<span>看不清？</span> <a href="javascript:;">换一张</a>
+</p>
+</div>
+<div class="captcha-holder"></div>
+<div class="command">
+<div class="zg-right actions">
+<label class="zg-link-gray remember_me"><input type="checkbox" name="rememberme" checked value="y"> 记住我</label>
+<span class="middot zg-gray">·</span>
+<a class="zg-link-gray" target="_blank" href="/resetpassword">忘记密码？</a>
+<input type="submit" class="zg-btn-blue" value="登录">
+</div>
+</div>
+</form>
+</div>
+<div class="view view-signup">
+<form action="/register/account" method="post" class="zu-side-login-box" id="sign-form-1" >
+<div class="zg-form-text-input-group-horizontal input-wrap realname-wrap js-weibo-bind-name-transfer">
+<span><input required class="zg-form-text-input first" aria-label="姓" name="last_name" placeholder="姓（必填）" type="text"></span>
+<span><input required class="zg-form-text-input" aria-label="名" name="first_name" placeholder="名（必填）" type="text"></span>
+</div>
+<div class="input-wrap">
+<input required class="zg-form-text-input" name="email" type="email" placeholder="邮箱">
+</div>
+<div class="input-wrap clearfix zg-form-text-input-group">
+<input required class="zg-form-text-input" id='pwdforconfirm' minlength="6" maxlength="128" name="password" type="password" placeholder="密码">
+<input class="zg-form-text-input" data-rule-equalTo="#pwdforconfirm" name="confirm_password" type="password" placeholder="确认密码" >
+</div>
+<div class="captcha-holder"></div>
+<div class="command">
+<div class="zg-right actions">
+<label class="zg-link-gray"><input type="checkbox" name="accept_terms" checked value="y"> 同意 <a class="zg-link-litblue" href="http://www.zhihu.com/terms" target="_blank">知乎协议</a></label>
+<input type="submit" class="zg-btn-blue" value="注册">
+</div>
+</div>
+</form>
+</div>
+<div class="view view-bindtip">
+<span>
+<i class="icon-info"></i>如果你已有知乎账号，请 <a class="js-bindsignin zg-link-litblue-normal" href="#">登录并绑定微博</a>
+</span>
+</div>
+<div class="view view-warmup">
+<div>
+<p>
+欢迎你来到知乎。 这是一个能真正体现你价值的地方。<br>
+我们相信，娱乐至上的中国互联网，需要一个与众不同的新世界。
+</p><p>
+在这里，认真、求知、信任与相互尊重，比肤浅的趣味更有意义；<br>
+在这里，真正有价值的信息是绝对的稀缺品，远未得到有效的挖掘和利用；<br>
+在这里，人与人之间，可以通过言之有物的分享，建立起真诚而友善的关系。
+</p><p>
+建立这个新世界并不容易，但你会发现，这也不难，只需要你和我们一样：
+</p>
+<ul>
+<li><b>认真</b>、<b>专业</b>：言之有物，不灌水，为自己的话负责</li>
+<li><b>友善</b>、<b>互助</b>：感谢每一个用心的回答，同时尊重与你观点不同的人</li>
+</ul>
+<p>
+独一无二的你，总有见解值得分享；世界那么大，也有等待着你的未知。
+</p><p>
+欢迎你加入我们，一起创造知乎，发现更大的世界。
+</p>
+</div>
+<div class="command">
+<a class="zg-btn-blue js-gotoinfo">开始</a>
+</div>
+</div>
+<div class="view view-info">
+<form class="login" method="post" action="/register/account">
+<input type="hidden" name="avatar_path">
+<div class="avatar-info">
+<div>
+<a class="avatar-link">
+<span class="zm-entry-head-avatar-edit-button">修改头像</span>
+<img src="http://p2.zhimg.com/c0/e3/c0e310228_xl.jpg" class="zm-avatar-editor-preview js-avatar" />
+</a>
+</div>
+<div>
+<a class="zg-btn-red js-weiboname" href="javascript:;"><span class="icon-big-white-sina"></span>绑定微博</a>
+</div>
+</div>
+<div class="main-info">
+<div class="input-wrap">
+<input required class="zg-form-text-input" aria-label="邮箱" name="email" placeholder="邮 箱" spellcheck="false" type="email" value="">
+</div>
+<div class="clearfix">
+<div class="input-wrap gender-wrap">
+<label><input type="radio" name="gender" value="1" checked class="male"/> 男&nbsp;&nbsp;</label>
+<label><input type="radio" name="gender" value="0" class="female"/> 女</label>
+</div>
+</div>
+<div class="clearfix">
+<div class="clearfix">
+<div class="input-wrap business-wrap">
+<div class="business-selection">
+<select name="business">
+<option value="">选择行业</option>
+
+
+<option value="高新科技">高新科技</option>
+
+<option value="互联网">&nbsp;&nbsp;&nbsp;互联网</option>
+
+<option value="电子商务">&nbsp;&nbsp;&nbsp;电子商务</option>
+
+<option value="电子游戏">&nbsp;&nbsp;&nbsp;电子游戏</option>
+
+<option value="计算机软件">&nbsp;&nbsp;&nbsp;计算机软件</option>
+
+<option value="计算机硬件">&nbsp;&nbsp;&nbsp;计算机硬件</option>
+
+
+
+
+<option value="信息传媒">信息传媒</option>
+
+<option value="出版业">&nbsp;&nbsp;&nbsp;出版业</option>
+
+<option value="电影录音">&nbsp;&nbsp;&nbsp;电影录音</option>
+
+<option value="广播电视">&nbsp;&nbsp;&nbsp;广播电视</option>
+
+<option value="通信">&nbsp;&nbsp;&nbsp;通信</option>
+
+
+
+
+<option value="金融">金融</option>
+
+<option value="银行">&nbsp;&nbsp;&nbsp;银行</option>
+
+<option value="资本投资">&nbsp;&nbsp;&nbsp;资本投资</option>
+
+<option value="证券投资">&nbsp;&nbsp;&nbsp;证券投资</option>
+
+<option value="保险">&nbsp;&nbsp;&nbsp;保险</option>
+
+<option value="信贷">&nbsp;&nbsp;&nbsp;信贷</option>
+
+<option value="财务">&nbsp;&nbsp;&nbsp;财务</option>
+
+<option value="审计">&nbsp;&nbsp;&nbsp;审计</option>
+
+
+
+
+<option value="服务业">服务业</option>
+
+<option value="法律">&nbsp;&nbsp;&nbsp;法律</option>
+
+<option value="餐饮">&nbsp;&nbsp;&nbsp;餐饮</option>
+
+<option value="酒店">&nbsp;&nbsp;&nbsp;酒店</option>
+
+<option value="旅游">&nbsp;&nbsp;&nbsp;旅游</option>
+
+<option value="广告">&nbsp;&nbsp;&nbsp;广告</option>
+
+<option value="公关">&nbsp;&nbsp;&nbsp;公关</option>
+
+<option value="景观">&nbsp;&nbsp;&nbsp;景观</option>
+
+<option value="咨询分析">&nbsp;&nbsp;&nbsp;咨询分析</option>
+
+<option value="市场推广">&nbsp;&nbsp;&nbsp;市场推广</option>
+
+<option value="人力资源">&nbsp;&nbsp;&nbsp;人力资源</option>
+
+<option value="社工服务">&nbsp;&nbsp;&nbsp;社工服务</option>
+
+<option value="养老服务">&nbsp;&nbsp;&nbsp;养老服务</option>
+
+
+
+
+<option value="教育">教育</option>
+
+<option value="高等教育">&nbsp;&nbsp;&nbsp;高等教育</option>
+
+<option value="基础教育">&nbsp;&nbsp;&nbsp;基础教育</option>
+
+<option value="职业教育">&nbsp;&nbsp;&nbsp;职业教育</option>
+
+<option value="幼儿教育">&nbsp;&nbsp;&nbsp;幼儿教育</option>
+
+<option value="特殊教育">&nbsp;&nbsp;&nbsp;特殊教育</option>
+
+<option value="培训">&nbsp;&nbsp;&nbsp;培训</option>
+
+
+
+
+<option value="医疗服务">医疗服务</option>
+
+<option value="临床医疗">&nbsp;&nbsp;&nbsp;临床医疗</option>
+
+<option value="制药">&nbsp;&nbsp;&nbsp;制药</option>
+
+<option value="保健">&nbsp;&nbsp;&nbsp;保健</option>
+
+<option value="美容">&nbsp;&nbsp;&nbsp;美容</option>
+
+<option value="医疗器材">&nbsp;&nbsp;&nbsp;医疗器材</option>
+
+<option value="生物工程">&nbsp;&nbsp;&nbsp;生物工程</option>
+
+<option value="疗养服务">&nbsp;&nbsp;&nbsp;疗养服务</option>
+
+<option value="护理服务">&nbsp;&nbsp;&nbsp;护理服务</option>
+
+
+
+
+<option value="艺术娱乐">艺术娱乐</option>
+
+<option value="创意艺术">&nbsp;&nbsp;&nbsp;创意艺术</option>
+
+<option value="体育健身">&nbsp;&nbsp;&nbsp;体育健身</option>
+
+<option value="娱乐休闲">&nbsp;&nbsp;&nbsp;娱乐休闲</option>
+
+<option value="图书馆">&nbsp;&nbsp;&nbsp;图书馆</option>
+
+<option value="博物馆">&nbsp;&nbsp;&nbsp;博物馆</option>
+
+<option value="策展">&nbsp;&nbsp;&nbsp;策展</option>
+
+<option value="博彩">&nbsp;&nbsp;&nbsp;博彩</option>
+
+
+
+
+<option value="制造加工">制造加工</option>
+
+<option value="食品饮料业">&nbsp;&nbsp;&nbsp;食品饮料业</option>
+
+<option value="纺织皮革业">&nbsp;&nbsp;&nbsp;纺织皮革业</option>
+
+<option value="服装业">&nbsp;&nbsp;&nbsp;服装业</option>
+
+<option value="烟草业">&nbsp;&nbsp;&nbsp;烟草业</option>
+
+<option value="造纸业">&nbsp;&nbsp;&nbsp;造纸业</option>
+
+<option value="印刷业">&nbsp;&nbsp;&nbsp;印刷业</option>
+
+<option value="化工业">&nbsp;&nbsp;&nbsp;化工业</option>
+
+<option value="汽车">&nbsp;&nbsp;&nbsp;汽车</option>
+
+<option value="家具">&nbsp;&nbsp;&nbsp;家具</option>
+
+<option value="电子电器">&nbsp;&nbsp;&nbsp;电子电器</option>
+
+<option value="机械设备">&nbsp;&nbsp;&nbsp;机械设备</option>
+
+<option value="塑料工业">&nbsp;&nbsp;&nbsp;塑料工业</option>
+
+<option value="金属加工">&nbsp;&nbsp;&nbsp;金属加工</option>
+
+<option value="军火">&nbsp;&nbsp;&nbsp;军火</option>
+
+
+
+
+<option value="地产建筑">地产建筑</option>
+
+<option value="房地产">&nbsp;&nbsp;&nbsp;房地产</option>
+
+<option value="装饰装潢">&nbsp;&nbsp;&nbsp;装饰装潢</option>
+
+<option value="物业服务">&nbsp;&nbsp;&nbsp;物业服务</option>
+
+<option value="特殊建造">&nbsp;&nbsp;&nbsp;特殊建造</option>
+
+<option value="建筑设备">&nbsp;&nbsp;&nbsp;建筑设备</option>
+
+
+
+
+<option value="贸易零售">贸易零售</option>
+
+<option value="零售">&nbsp;&nbsp;&nbsp;零售</option>
+
+<option value="大宗交易">&nbsp;&nbsp;&nbsp;大宗交易</option>
+
+<option value="进出口贸易">&nbsp;&nbsp;&nbsp;进出口贸易</option>
+
+
+
+
+<option value="公共服务">公共服务</option>
+
+<option value="政府">&nbsp;&nbsp;&nbsp;政府</option>
+
+<option value="国防军事">&nbsp;&nbsp;&nbsp;国防军事</option>
+
+<option value="航天">&nbsp;&nbsp;&nbsp;航天</option>
+
+<option value="科研">&nbsp;&nbsp;&nbsp;科研</option>
+
+<option value="给排水">&nbsp;&nbsp;&nbsp;给排水</option>
+
+<option value="水利能源">&nbsp;&nbsp;&nbsp;水利能源</option>
+
+<option value="电力电网">&nbsp;&nbsp;&nbsp;电力电网</option>
+
+<option value="公共管理">&nbsp;&nbsp;&nbsp;公共管理</option>
+
+<option value="环境保护">&nbsp;&nbsp;&nbsp;环境保护</option>
+
+<option value="非盈利组织">&nbsp;&nbsp;&nbsp;非盈利组织</option>
+
+
+
+
+<option value="开采冶金">开采冶金</option>
+
+<option value="煤炭工业">&nbsp;&nbsp;&nbsp;煤炭工业</option>
+
+<option value="石油工业">&nbsp;&nbsp;&nbsp;石油工业</option>
+
+<option value="黑色金属">&nbsp;&nbsp;&nbsp;黑色金属</option>
+
+<option value="有色金属">&nbsp;&nbsp;&nbsp;有色金属</option>
+
+<option value="土砂石开采">&nbsp;&nbsp;&nbsp;土砂石开采</option>
+
+<option value="地热开采">&nbsp;&nbsp;&nbsp;地热开采</option>
+
+
+
+
+<option value="交通仓储">交通仓储</option>
+
+<option value="邮政">&nbsp;&nbsp;&nbsp;邮政</option>
+
+<option value="物流递送">&nbsp;&nbsp;&nbsp;物流递送</option>
+
+<option value="地面运输">&nbsp;&nbsp;&nbsp;地面运输</option>
+
+<option value="铁路运输">&nbsp;&nbsp;&nbsp;铁路运输</option>
+
+<option value="管线运输">&nbsp;&nbsp;&nbsp;管线运输</option>
+
+<option value="航运业">&nbsp;&nbsp;&nbsp;航运业</option>
+
+<option value="民用航空业">&nbsp;&nbsp;&nbsp;民用航空业</option>
+
+
+
+
+<option value="农林牧渔">农林牧渔</option>
+
+<option value="种植业">&nbsp;&nbsp;&nbsp;种植业</option>
+
+<option value="畜牧养殖业">&nbsp;&nbsp;&nbsp;畜牧养殖业</option>
+
+<option value="林业">&nbsp;&nbsp;&nbsp;林业</option>
+
+<option value="渔业">&nbsp;&nbsp;&nbsp;渔业</option>
+
+
+
+</select>
+</div>
+<div class="student-wrap">
+<label><input type="checkbox" name="iamstudent"> 我是学生</label>
+</div>
+</div>
+</div>
+<div class="js-workerinfo zg-form-text-input-group-horizontal input-wrap">
+<span><input autocomplete="off" aria-haspopup="true" type="text" name="company" class="first zg-form-text-input employment" placeholder="公司或组织名称"/></span>
+<span><input autocomplete="off" aria-haspopup="true" type="text" name="title" class="zg-form-text-input position" placeholder="你的职位"/></span>
+</div>
+<div class="js-studentinfo zg-form-text-input-group-horizontal input-wrap hidden" >
+<span><input autocomplete="off" aria-haspopup="true" type="text" name="school" value="" class="first zg-form-text-input education" placeholder="学校或教育机构"/></span>
+<span><input autocomplete="off" aria-haspopup="true" type="text" name="major" value="" class="zg-form-text-input education-extra" placeholder="专业方向"/></span>
+</div>
+</div>
+<div class="input-wrapper">
+<input autocomplete="off" maxlength="40" type="text" name="headline" value="" class="zg-form-text-input" placeholder="个人一句话介绍"/>
+</div>
+</div>
+<div class="command">
+<div class="zg-right actions">
+<input class="zg-btn-blue" type="submit" value="完成注册">
+</div>
+</div>
+</form>
+</div>
+<div class="view view-bindsignin">
+<div class="description">
+<div class="avatar">
+<span class="icon-weibo-corner"></span>
+<img src="http://p2.zhimg.com/c0/e3/c0e310228_xl.jpg" class="js-avatar">
+</div>
+<div class="detail">
+<span class="icon-big-arrow-right"></span><br>
+找到微博好友 <br>
+快速进入知乎 <br>
+<span class="icon-big-arrow-left"></span>
+</div>
+<div class="avatar">
+<img src="http://p2.zhimg.com/85/ad/85ada61ab_xl.jpg">
+</div>
+</div>
+<div class="command">
+<form method="post" action="/login" class="">
+<input type="hidden" name="with_bind" value="1">
+<div class="formbar">
+<div class="input-wrap">
+<input required class="zg-form-text-input" name="email" type="email" placeholder="邮箱">
+</div>
+<div class="input-wrap">
+<input required class="zg-form-text-input" maxlength="128" name="password" type="password" placeholder="密码">
+</div>
+</div>
+<div class="ctrlbar">
+<div class="zg-right actions">
+<label class="zg-link-gray remember_me"><input type="checkbox" name="rememberme" checked value="y"> 记住我</label>
+<span class="middot zg-gray">·</span>
+<a class="zg-link-gray" target="_blank" href="/resetpassword">忘记密码？</a>
+<input type="submit" class="zg-btn-blue" value="登录并绑定微博">
+</div>
+<div class="bottom-label">
+<a href="#" class="link-btn js-backto-info">返回注册</a>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div class="view view-followtopic">
+<div class="followtip">
+
+<label>有哪些你擅长的领域，可以与我们分享？有哪些你感兴趣的领域，想要探索更多？</label>
+
+</div>
+<div class="topics">
+<ul class="clearfix">
+</ul>
+</div>
+<div class="command">
+<div class="zg-right actions">
+<!-- <a class="zg-btn-green js-followalltopic" href="#">全部关注</a> -->
+<a class="zg-btn-blue js-gotofollowpeople" href="#">跳过</a>
+</div>
+</div>
+</div>
+<div class="view view-followpeople">
+<div class="followtip">
+<label class="zg-right friendsfollowed"><i class="icon-green-check"></i>已自动关注微博好友</label>
+<label>关注你的朋友或任何感兴趣的人，获取他们的最新动态。</label>
+</div>
+<div class="people">
+<ul class="clearfix">
+</ul>
+</div>
+<div class="command">
+<div class="zg-right actions">
+<a class="link-btn js-gotofollowtopoic" href="#">上一步</a>
+<!-- <a class="zg-btn-green js-followallpeople" href="#">全部关注</a> -->
+<a class="zg-btn-blue js-startuse" href="#">开始使用</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script>var DZMT = DZMT || [];
+
+DZMT.push([
+'current_user',
+["",
+"",
+"",
+"-1",
+"",
+0,
+0]
+]);
+
+DZMT.push(['env', ["zhihu.com", "comet.zhihu.com", false, false ]]);
+
+
+</script>
+
+<script src="http://static.zhihu.com/static/ver/6b582a93ed58cae8fd5028df050bf183.extern_src.min.js"></script>
+<script src="http://static.zhihu.com/static/ver/152ea9b08952478b5fe76f4c5134d159.app_core.js"></script>
+<script src="http://static.zhihu.com/static/ver/db477e3d5ac67a1f9ee849073fd49355.sign.js"></script>
+
+<script>
+ZH.main();
+ZH.ill();
+
+</script>
+
+<script src="http://static.zhihu.com/static/ver/e382810f4b381583b2e2c31fca865517.app.js"></script>
+<script src="http://static.zhihu.com/static/ver/fa362e3b67d6b2da5c4edae29b5ce563.rich_text_editor.js"></script>
+
+<script>
+
+
+ZH.entryP();
+
+
+</script>
+
+
+<script>
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-20961733-1']);
+_gaq.push(['_setDomainName', '.zhihu.com']);
+// (NEW) SEO: add new search engines
+_gaq.push(['_addOrganic', 'baidu', 'word']);
+_gaq.push(['_addOrganic', 'baidu', 'wd']);
+_gaq.push(['_addOrganic', 'sogou', 'query']);
+_gaq.push(['_addOrganic', 'so.360.cn', 'q']);
+_gaq.push(['_addOrganic', 'so.com', 'q']);
+_gaq.push(['_addOrganic', 'soso', 'w']);
+_gaq.push(['_addOrganic', 'google', 'q']);
+// (NEW) SEO: exclude direct search terms
+_gaq.push(['_addIgnoredOrganic', '知乎']);
+_gaq.push(['_addIgnoredOrganic', '知乎网']);
+_gaq.push(['_addIgnoredOrganic', 'zhihu']);
+_gaq.push(['_addIgnoredOrganic', 'zhihu.com']);
+_gaq.push(['_addIgnoredOrganic', 'www.zhihu.com']);
+
+var user_attr = [ '0', '0', '0', '-', '-' ]
+// slot 1
+_gaq.push(['_setVar', user_attr.join('')]);
+_gaq.push(['_setCustomVar', 1, 'user_attr', user_attr.join(''), 3]);
+
+var current_user_created = 9000000000000
+
+// slot 3
+var qc1_match = document.cookie.match(/q_c1=(\w+)\|(\w+)\|(\d+)/);
+var uutime = 9000000000000; // year 2255
+if (qc1_match) {
+uutime = +qc1_match[3];
+}
+var entry_date = Math.min(uutime, current_user_created, 1372589575000)
+_gaq.push(['_setCustomVar', 3, 'entry_date', moment(entry_date).format('YYYYMMDD'), 1]);
+_gaq.push(['_setCustomVar', 4, 'abtest_group', "-------------------1----------", 3]);
+_gaq.push(['_trackPageview']);
+
+var _zao = _zao || { uid: 0 };
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+var za = document.createElement('script'); za.type = 'text/javascript'; za.async = true;
+za.src = 'http://static.analytics.zhihu.com/static/za.js?v=4';
+s.parentNode.insertBefore(za, s);
+})();
+
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','__ga');
+__ga('create', 'UA-20961733-3', {'cookieDomain': 'zhihu.com'});
+__ga('send', 'pageview');
+</script>
+
+<input type="hidden" name="_xsrf" value="74a26d13c5c7401c98fb220984397557"/>
+</body>
+</html>
